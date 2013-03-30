@@ -22,12 +22,12 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "debug": "0.7.2",
-    "express": "3.1.0",
+    "debug": "0.7.x",
+    "express": "3.x",
     "express-params": "0.0.3",
-    "jade": "0.28.2",
+    "jade": "0.28.x",
     "marked": "0",
-    "strftime": "0",
+    "strftime": "0"
   },
   "devDependencies": {}
 }
