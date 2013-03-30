@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "author": "Joseph YOLK Chiocchi <joe@yolk.cc> (http://yolk.cc)",
+  "name": "omelette",
+  "description": "Made fresh.",
+  "version": "0.0.0",
+  "homepage": "http://yolk.cc",
+  "subdomain": "omelette",
+  "domains": [
+    "yolk.cc",
+    "www.yolk.cc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yyolk/omelette.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": "1.1.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "debug": "0.7.2",
+    "express": "3.1.0",
+    "express-params": "0.0.3",
+    "jade": "0.28.2",
+    "marked": "0",
+    "strftime": "0",
+  },
+  "devDependencies": {}
+}
