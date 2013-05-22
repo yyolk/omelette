@@ -4,7 +4,9 @@
   "description": "omelette components",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/favicon":"*"
+    },
   "development": {},
   "license": "MIT"
 }
