@@ -28,7 +28,7 @@
     "jade": "0.28.x",
     "marked": "0",
     "strftime": "0",
-    "highlight.js": "0"
+    "highlight.js": "7.3.0"
   },
   "devDependencies": {}
 }
