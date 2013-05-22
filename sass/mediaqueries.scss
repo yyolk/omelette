@@ -1,0 +1,19 @@
+@import "mediaqueries/mediaqueries.inc";
+
+// EXEMPLE 
+//@media only screen and (max-width: 321px) {
+//	@include mediaUnder320;
+//}
+
+
+//@media only screen and (min-width: 321px) and (max-width: 720px) { 
+//	@include media321to720;
+//}
+
+//@media only screen and (min-width: 321px) and (max-width: 720px) { 
+//@include media721to1024;
+//}
+
+//@media only screen and (min-width: 1025px) { 
+//@include mediaOver1024;
+//}

@@ -1,0 +1,10 @@
+.works
+  h3 all works
+  each work in works
+    .work
+      h4
+        a(class='worklink', href='/work/'+work.name)= work.title
+        date = work.date
+        span(title=strftime('%B %d, %Y %H:%M UTC', date), class="pdate")= strftime('%Y.%m.%d', date)
+      | !{work.desc}
+

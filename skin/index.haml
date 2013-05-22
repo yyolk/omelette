@@ -1,0 +1,9 @@
+#main.index
+  :each article in articles.slice(0,3)
+    .article
+      %h4
+        %a{href: '/' +article.name}&= article.title
+        %span{class: "pdate", title: formatDate(article.date, "%B %d, %Y %H:%M UTC")}&= formatDate(article.date, '%Y.%m.%d')
+      = intro(article.markdown)
+      %hr(class="clear")
+%a(id='morelink' href='articles') older...

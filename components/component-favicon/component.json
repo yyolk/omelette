@@ -1,0 +1,16 @@
+{
+  "name": "favicon",
+  "description": "Dynamic favicon replacement component",
+  "version": "1.0.2",
+  "keywords": [
+    "favicon",
+    "image",
+    "ui",
+    "canvas"
+  ],
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ],
+  "repo": "https://raw.github.com/component/favicon"
+}

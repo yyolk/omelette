@@ -1,0 +1,35 @@
+//
+// Addresses font sizes and margins set differently in IE6/7
+// Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+// From normalize http://necolas.github.com/normalize.css not included in boilerplate.
+//
+
+h1,.h1-like {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2,.h2-like {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3,.h3-like {
+    font-size: 1.417em;
+    margin: 1em 0;
+}
+
+h4,.h4-like {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5,.h5-like {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6,.h6-like {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}

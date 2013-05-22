@@ -1,0 +1,10 @@
+.articles
+  h3 all articles
+  each article in articles
+    .article
+      h4
+        a(class='articlelink', href='/article/'+article.name)= article.title
+        date = article.date
+        span(title=strftime('%B %d, %Y %H:%M UTC', date), class='pdate')= strftime('%Y.%m.%d', date)
+      | !{article.desc}
+

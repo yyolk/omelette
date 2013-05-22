@@ -1,0 +1,8 @@
+#main
+  .article
+    %h1
+      %a.backhome{href: "/"}
+        %span.backarrow ⤺
+        %span.title&=article.title
+    = markdownEncode(article.markdown)
+    %hr{class: "clear"}

@@ -1,0 +1,10 @@
+.work
+  h1
+    a.backhome(href="/works")
+      span.fontawesome-backward.backarrow
+      span.title!=work.title
+  strong
+    | Published: 
+    date = work.date
+    span(title=strftime('%B %d, %Y %H:%M UTC', date))= strftime('%Y.%m.%d', date)
+.work!= work.html

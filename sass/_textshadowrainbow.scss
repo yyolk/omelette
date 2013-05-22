@@ -1,0 +1,183 @@
+#doyouliek *{
+  margin: 0;
+  font-size: 200%;
+  color : rgba(0,255,128,.9); 
+  text-align    : center;
+  text-transform: capitalize;
+  text-shadow:  1px  1px 0 #0000ff,
+                2px  2px 0 #1a1aff,
+                3px  3px 0 #3434ff,
+                4px  4px 0 #4e4eff,
+                5px  5px 0 #6868ff,
+                6px  6px 0 #ff1c1c,
+                7px  7px 0 #ff3636,
+                8px  8px 0 #ff5050,
+                9px  9px 0 #ff6a6a,
+               10px 10px 0 #ff8484,
+               11px 11px 0 #84ff84,
+               12px 12px 0 #6bff6b,
+               13px 13px 0 #52ff52,
+               14px 14px 0 #39ff39,
+               15px 15px 0 #1fff1f,            
+               16px 16px 0 #ff1f8f,
+               17px 17px 0 #ff399c,
+               18px 18px 0 #ff53a9,
+               19px 19px 0 #ff6db6,
+               20px 20px 0 #ff87c3,  
+               21px 21px 0 #0000ff,
+               22px 22px 0 #1a1aff,
+               23px 23px 0 #3434ff,
+               24px 24px 0 #4e4eff,
+               25px 25px 0 #6868ff;
+  
+  -webkit-animation:rainbowshadow 2s ease-in-out infinite alternate;
+     -moz-animation:rainbowshadow 2s ease-in-out infinite alternate;
+      -ms-animation:rainbowshadow 2s ease-in-out infinite alternate;
+       -o-animation:rainbowshadow 2s ease-in-out infinite alternate;
+          animation:rainbowshadow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes rainbowshadow {
+  to { text-shadow:-1px  1px 0 #0000ff,
+                   -2px  2px 0 #1a1aff,
+                   -3px  3px 0 #3434ff,
+                   -4px  4px 0 #4e4eff,
+                   -5px  5px 0 #6868ff,
+                   -6px  6px 0 #ff1c1c,
+                   -7px  7px 0 #ff3636,
+                   -8px  8px 0 #ff5050,
+                   -9px  9px 0 #ff6a6a,
+                  -10px 10px 0 #ff8484,
+                  -11px 11px 0 #84ff84,
+                  -12px 12px 0 #6bff6b,
+                  -13px 13px 0 #52ff52,
+                  -14px 14px 0 #39ff39,
+                  -15px 15px 0 #1fff1f,            
+                  -16px 16px 0 #ff1f8f,
+                  -17px 17px 0 #ff399c,
+                  -18px 18px 0 #ff53a9,
+                  -19px 19px 0 #ff6db6,
+                  -20px 20px 0 #ff87c3,  
+                  -21px 21px 0 #0000ff,
+                  -22px 22px 0 #1a1aff,
+                  -23px 23px 0 #3434ff,
+                  -24px 24px 0 #4e4eff,
+                  -25px 25px 0 #6868ff;
+}
+}
+
+@-moz-keyframes rainbowshadow {
+  to { text-shadow:-1px  1px 0 #0000ff,
+                   -2px  2px 0 #1a1aff,
+                   -3px  3px 0 #3434ff,
+                   -4px  4px 0 #4e4eff,
+                   -5px  5px 0 #6868ff,
+                   -6px  6px 0 #ff1c1c,
+                   -7px  7px 0 #ff3636,
+                   -8px  8px 0 #ff5050,
+                   -9px  9px 0 #ff6a6a,
+                  -10px 10px 0 #ff8484,
+                  -11px 11px 0 #84ff84,
+                  -12px 12px 0 #6bff6b,
+                  -13px 13px 0 #52ff52,
+                  -14px 14px 0 #39ff39,
+                  -15px 15px 0 #1fff1f,            
+                  -16px 16px 0 #ff1f8f,
+                  -17px 17px 0 #ff399c,
+                  -18px 18px 0 #ff53a9,
+                  -19px 19px 0 #ff6db6,
+                  -20px 20px 0 #ff87c3,  
+                  -21px 21px 0 #0000ff,
+                  -22px 22px 0 #1a1aff,
+                  -23px 23px 0 #3434ff,
+                  -24px 24px 0 #4e4eff,
+                  -25px 25px 0 #6868ff;
+}
+}
+
+@-ms-keyframes rainbowshadow {
+  to { text-shadow:-1px  1px 0 #0000ff,
+                   -2px  2px 0 #1a1aff,
+                   -3px  3px 0 #3434ff,
+                   -4px  4px 0 #4e4eff,
+                   -5px  5px 0 #6868ff,
+                   -6px  6px 0 #ff1c1c,
+                   -7px  7px 0 #ff3636,
+                   -8px  8px 0 #ff5050,
+                   -9px  9px 0 #ff6a6a,
+                  -10px 10px 0 #ff8484,
+                  -11px 11px 0 #84ff84,
+                  -12px 12px 0 #6bff6b,
+                  -13px 13px 0 #52ff52,
+                  -14px 14px 0 #39ff39,
+                  -15px 15px 0 #1fff1f,            
+                  -16px 16px 0 #ff1f8f,
+                  -17px 17px 0 #ff399c,
+                  -18px 18px 0 #ff53a9,
+                  -19px 19px 0 #ff6db6,
+                  -20px 20px 0 #ff87c3,  
+                  -21px 21px 0 #0000ff,
+                  -22px 22px 0 #1a1aff,
+                  -23px 23px 0 #3434ff,
+                  -24px 24px 0 #4e4eff,
+                  -25px 25px 0 #6868ff;
+}
+}
+
+@-o-keyframes rainbowshadow {
+  to { text-shadow:-1px  1px 0 #0000ff,
+                   -2px  2px 0 #1a1aff,
+                   -3px  3px 0 #3434ff,
+                   -4px  4px 0 #4e4eff,
+                   -5px  5px 0 #6868ff,
+                   -6px  6px 0 #ff1c1c,
+                   -7px  7px 0 #ff3636,
+                   -8px  8px 0 #ff5050,
+                   -9px  9px 0 #ff6a6a,
+                  -10px 10px 0 #ff8484,
+                  -11px 11px 0 #84ff84,
+                  -12px 12px 0 #6bff6b,
+                  -13px 13px 0 #52ff52,
+                  -14px 14px 0 #39ff39,
+                  -15px 15px 0 #1fff1f,            
+                  -16px 16px 0 #ff1f8f,
+                  -17px 17px 0 #ff399c,
+                  -18px 18px 0 #ff53a9,
+                  -19px 19px 0 #ff6db6,
+                  -20px 20px 0 #ff87c3,  
+                  -21px 21px 0 #0000ff,
+                  -22px 22px 0 #1a1aff,
+                  -23px 23px 0 #3434ff,
+                  -24px 24px 0 #4e4eff,
+                  -25px 25px 0 #6868ff;
+}
+}
+
+@keyframes rainbowshadow {
+  to { text-shadow:-1px  1px 0 #0000ff,
+                   -2px  2px 0 #1a1aff,
+                   -3px  3px 0 #3434ff,
+                   -4px  4px 0 #4e4eff,
+                   -5px  5px 0 #6868ff,
+                   -6px  6px 0 #ff1c1c,
+                   -7px  7px 0 #ff3636,
+                   -8px  8px 0 #ff5050,
+                   -9px  9px 0 #ff6a6a,
+                  -10px 10px 0 #ff8484,
+                  -11px 11px 0 #84ff84,
+                  -12px 12px 0 #6bff6b,
+                  -13px 13px 0 #52ff52,
+                  -14px 14px 0 #39ff39,
+                  -15px 15px 0 #1fff1f,            
+                  -16px 16px 0 #ff1f8f,
+                  -17px 17px 0 #ff399c,
+                  -18px 18px 0 #ff53a9,
+                  -19px 19px 0 #ff6db6,
+                  -20px 20px 0 #ff87c3,  
+                  -21px 21px 0 #0000ff,
+                  -22px 22px 0 #1a1aff,
+                  -23px 23px 0 #3434ff,
+                  -24px 24px 0 #4e4eff,
+                  -25px 25px 0 #6868ff;
+}
+}

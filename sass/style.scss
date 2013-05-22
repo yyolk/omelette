@@ -1,0 +1,256 @@
+// Disclaimer for the result file style.css 
+/*
+* Please don't touch style.css directly, use style.scss instead.
+* Every modification made inside this file will be removed automatically 
+*
+*/
+// ==|== vars ===============================================================
+@import "h5bp/h5bp-vars.inc";
+//@import "author-vars-before.inc";
+// ==|== End vars ===========================================================
+
+//##############################################################################
+
+/* =============================================================================
+*  h5bp
+*  =============================================================================
+*/
+// ==|== h5bp =============================================================== 
+@import "h5bp/h5bp-css-before.inc";
+// ==|== End h5bp ===========================================================
+
+//##############################################################################
+
+// ==|== semantics-helpers ==================================================
+//@import "h5bp/h5bp-semantics-mixins-helpers-before.inc";
+//@import "author-semantics-mixins-helpers-before.inc.inc";
+// ==|== End semantics-helpers ==============================================
+
+//##############################################################################
+
+/* =============================================================================
+*  Typo Author
+*  =============================================================================
+*/
+@import "author-typography-before.inc";
+// ==|== End typo =========================================================== 
+
+//##############################################################################
+
+/* =============================================================================
+*  Main Style
+*  =============================================================================
+*/
+
+//YOUR CODE HERE !!!
+
+// ==|== End primary styles =================================================
+
+//##############################################################################
+/* =============================================================================
+*  Mediaqueries
+*  =============================================================================
+*/
+// @import "mediaqueries.scss"
+// ==|== End mediaqueries ===================================================
+
+//##############################################################################
+
+/* =============================================================================
+*  Helpers h5bp + Author
+*  =============================================================================
+*/
+@import "h5bp/h5bp-css-helpers-after.inc";
+@import "author-css-helpers-after.inc";
+// ==|== End helpers ======================================================== 
+
+//##############################################################################
+
+/* =============================================================================
+*  Print style
+*  =============================================================================
+*/
+// ==|== print-media ========================================================
+@import "h5bp/h5bp-css-print-after.inc";
+// ==|== End print-media ====================================================
+@import "compass/css3";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+body { padding: 40px; }
+
+
+
+@import "recipes/shadow/drop";
+@import "recipes/effect/cutout";
+
+@import "animate";
+@import "animation";
+
+header { 
+  .nav a{
+    @include inline-block;
+    margin-right:5px;
+  }
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+.social{
+  margin-left:-5px;
+}
+.social a{
+  margin:5px;
+  font-size:200%;
+}
+.social:first-child{
+  margin-left:-5px;
+}
+a {
+  @include inline-block;
+  text-decoration:none;
+  padding:4px;
+  margin:-4px;
+  &:visited{
+    color:blue;
+  }
+  &:hover{
+    &:active{
+      color:red;
+      background-color:white;
+    }
+    background-color: red;
+    color:white;
+    text-decoration:none;
+    &{
+      @include drop-shadow-raised;
+      @include transition-duration(.4s);
+      @include animate-bounceIn;
+    }
+  }
+}
+a.worklink, a.articlelink, a.morelink{
+  &:hover{
+    @include cutout;
+    @include transition-duration(.4s);
+    @include animate-bounceIn;
+  }
+}
+
+.yolk {
+  margin-left:-10px;
+}
+.yolk a{
+  margin:10px;
+  padding:20px;
+  color:black;
+  &:hover{
+    background-color: black;
+    color:white;
+    &:active{
+      color:white;
+      background-color:black;
+    }
+  }
+}
+
+a.morelink{
+
+  &:hover{
+    color:white;
+    &:visited{
+      color:white;
+    }
+    background-color:blue;
+    &:active{
+      background-color:white;
+    }
+  }
+}
+
+.work, .article {
+  &:hover{ 
+
+  //   @include drop-shadow-raised;
+
+  //   @include transition-duration(.4s);
+  //   @include animate-bounceIn;
+  //   //@include transition-timing-function(ease-in);
+  }
+
+  span.pdate { float:right;}
+
+  a.backhome{
+    margin-left:-32px;
+    color:black;
+    span.backarrow{
+      @include inline-block;
+      position:relative;
+      visibility:hidden;
+    }
+    &:hover span.backarrow{
+      visibility:visible;
+    }
+    &:active{
+      span.backarrow{
+        color:black;
+      }
+      span.title{
+        color:blue;
+      }
+    }
+  }
+  p { clear:left;}
+  img { width:100%; }
+  iframe { width:100%; }
+}
+.clear{ clear:both;}
+a.morelink {
+  &:visited{
+    color: #0000cc;
+  }
+  clear:both;
+}
+
+
+// upcoming 
+
+@include keyframes(upcomingHue) {
+  0%, 100% {
+    color: LemonChiffon;
+    background-color: Crimson;
+    @include drop-shadow-raised;
+  }
+  50% {
+    color: Crimson;
+    background-color: LemonChiffon;
+    @include cutout;
+  }
+}
+
+.upcoming h3{
+  @include animation(upcomingHue 3s infinite);
+  @include inline-block;
+  padding: 10px;
+}
+
+// do you like G L I T C H
+
+@import "textshadowrainbow";
+
+footer{
+  margin-top:20px;
+  text-align:center;
+}

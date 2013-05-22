@@ -1,0 +1,48 @@
+//
+// HTML5 Boilerplate
+//
+// What follows is the result of much research on cross-browser styling.
+// Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+// Kroc Camen, and the H5BP dev community and team.
+//
+// Detailed information about this CSS: h5bp.com/css
+//
+// ==|== normalize ==========================================================
+//
+// ==============
+//  HTML5 display definitions
+//  =============
+//
+// mixin h5bp-vars.inc.scss
+
+$body-font-size: 1em;
+
+$body-line-height: 1.4;
+
+$main-color: #222;
+
+$body-background-color: #fff;
+
+$selection-background-color: #b3d4fc;
+
+$selection-color: #fff;
+
+$input-invalid-background-color: #f0dddd;
+
+// Links
+
+$a-color: #00e;
+
+$a-visited-color: #551a8b;
+
+$a-hover-color: #06e;
+
+// vars for print
+
+$main-print-color: black;
+
+$pre-and-blockquote-print-border-color: #999;
+
+$page-print-margin: 0.5cm;
+
+
