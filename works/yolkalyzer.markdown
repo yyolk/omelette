@@ -1,5 +1,6 @@
 Title: YOLKALYZER
 Date: Tue, 29 May 2012 04:56:34 GMT
+Keywords: code, experiment
 
 A Collada DAE ***"glitcher" / "texturizer"***. 
 

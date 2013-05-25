@@ -1,5 +1,6 @@
 Title: SameDifference.io
 Date: Fri, 18 Jan 2013 06:46:17 GMT
+Keywords: website, collab
 
 [SameDifference.io][1] with [Mitch Thar][2]
 
