@@ -8,6 +8,9 @@
     .work
       h4
         a(class='worklink', href="work/" + work.name + '/')= work.title
+        span
+          if work.keywords == 'video'
+            p(class="fontawesome-facetime-video")
         date = work.date
         span(title=strftime('%B %d, %Y %H:%M UTC', date), class="pdate")= strftime('%Y.%m.%d', date)
       | !{work.desc}
