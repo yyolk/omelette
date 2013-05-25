@@ -4,8 +4,8 @@ Keywords: collab, website
 
 Secret-Santa-Style GIF Exchange by [Anthony Antonellis](http://anthonyantonellis.com)
 
-![](gif-unwrapping/thumbnail.gif)
+![](gif-wrapping/thumbnail.gif)
 
-![](http://i.imgur.com/T6yBW.gif)
+![](gif-wrapping/lqs4355g.gif)
 
 [GIF Wrapping](http://gifwrapping.net/)
