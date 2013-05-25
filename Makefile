@@ -9,3 +9,13 @@ clean:
 	rm -fr build components template.js
 
 .PHONY: clean
+
+
+run:
+	@node server
+
+article:
+	@./create-article.sh
+
+work:
+	@./create-work.sh
