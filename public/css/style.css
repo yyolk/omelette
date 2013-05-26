@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial|brandico);
 /*
 * Please don't touch style.css directly, use style.scss instead.
 * Every modification made inside this file will be removed automatically 
@@ -611,23 +611,29 @@ header .nav a {
   font-family: 'zocial', sans-serif;
 }
 
+/* brandico */
 /* line 111, ../../sass/style.scss */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* line 116, ../../sass/style.scss */
 .social {
   margin-left: -5px;
 }
 
-/* line 114, ../../sass/style.scss */
+/* line 119, ../../sass/style.scss */
 .social a {
   margin: 5px;
   font-size: 200%;
 }
 
-/* line 118, ../../sass/style.scss */
+/* line 123, ../../sass/style.scss */
 .social:first-child {
   margin-left: -5px;
 }
 
-/* line 121, ../../sass/style.scss */
+/* line 126, ../../sass/style.scss */
 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -639,22 +645,22 @@ a {
   padding: 4px;
   margin: -4px;
 }
-/* line 126, ../../sass/style.scss */
+/* line 131, ../../sass/style.scss */
 a:visited {
   color: blue;
 }
-/* line 129, ../../sass/style.scss */
+/* line 134, ../../sass/style.scss */
 a:hover {
   background-color: red;
   color: white;
   text-decoration: none;
 }
-/* line 130, ../../sass/style.scss */
+/* line 135, ../../sass/style.scss */
 a:hover:active {
   color: red;
   background-color: white;
 }
-/* line 137, ../../sass/style.scss */
+/* line 142, ../../sass/style.scss */
 a:hover {
   -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -664,27 +670,27 @@ a:hover {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
   @-moz-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -moz-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -moz-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -moz-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -moz-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -692,27 +698,27 @@ a:hover {
 }
 
   @-webkit-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -webkit-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -webkit-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -webkit-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -webkit-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -720,27 +726,27 @@ a:hover {
 }
 
   @-o-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -o-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -o-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -o-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -o-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -748,27 +754,27 @@ a:hover {
 }
 
   @-ms-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -ms-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -ms-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -ms-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -ms-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -776,31 +782,31 @@ a:hover {
 }
 
   @keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       transform: scale(1, 1);
     }
 }
 
 }
-/* line 145, ../../sass/style.scss */
+/* line 150, ../../sass/style.scss */
 a.worklink:hover, a.articlelink:hover, a.morelink:hover {
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -810,27 +816,27 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
   @-moz-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -moz-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -moz-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -moz-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -moz-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -838,27 +844,27 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
 }
 
   @-webkit-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -webkit-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -webkit-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -webkit-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -webkit-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -866,27 +872,27 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
 }
 
   @-o-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -o-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -o-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -o-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -o-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -894,27 +900,27 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
 }
 
   @-ms-keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       -ms-transform: scale(0.3, 0.3);
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       -ms-transform: scale(1.05, 1.05);
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       -ms-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       -ms-transform: scale(1, 1);
       transform: scale(1, 1);
@@ -922,76 +928,76 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
 }
 
   @keyframes bounceIn {
-    /* line 18, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 18, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     0% {
       opacity: 0;
       transform: scale(0.3, 0.3);
     }
 
-    /* line 22, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 22, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     50% {
       opacity: 1;
       transform: scale(1.05, 1.05);
     }
 
-    /* line 26, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 26, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     70% {
       transform: scale(0.9, 0.9);
     }
 
-    /* line 29, ../../../lib/ruby/gems/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
+    /* line 29, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/animate-0.2.beta.0/stylesheets/animate/bounce/_bounceIn.scss */
     100% {
       transform: scale(1, 1);
     }
 }
 
 }
-/* line 152, ../../sass/style.scss */
+/* line 157, ../../sass/style.scss */
 .yolk {
   margin-left: -10px;
 }
 
-/* line 155, ../../sass/style.scss */
+/* line 160, ../../sass/style.scss */
 .yolk a {
   margin: 10px;
   padding: 20px;
   color: black;
 }
-/* line 159, ../../sass/style.scss */
+/* line 164, ../../sass/style.scss */
 .yolk a:hover {
   background-color: black;
   color: white;
 }
-/* line 162, ../../sass/style.scss */
+/* line 167, ../../sass/style.scss */
 .yolk a:hover:active {
   color: white;
   background-color: black;
 }
 
-/* line 171, ../../sass/style.scss */
+/* line 176, ../../sass/style.scss */
 a.morelink:hover {
   color: white;
   background-color: blue;
 }
-/* line 173, ../../sass/style.scss */
+/* line 178, ../../sass/style.scss */
 a.morelink:hover:visited {
   color: white;
 }
-/* line 177, ../../sass/style.scss */
+/* line 182, ../../sass/style.scss */
 a.morelink:hover:active {
   background-color: white;
 }
 
-/* line 193, ../../sass/style.scss */
+/* line 198, ../../sass/style.scss */
 .work span.pdate, .article span.pdate {
   float: right;
 }
-/* line 195, ../../sass/style.scss */
+/* line 200, ../../sass/style.scss */
 .work a.backhome, .article a.backhome {
   margin-left: -32px;
   color: black;
 }
-/* line 198, ../../sass/style.scss */
+/* line 203, ../../sass/style.scss */
 .work a.backhome span.backarrow, .article a.backhome span.backarrow {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1002,47 +1008,47 @@ a.morelink:hover:active {
   position: relative;
   visibility: hidden;
 }
-/* line 203, ../../sass/style.scss */
+/* line 208, ../../sass/style.scss */
 .work a.backhome:hover span.backarrow, .article a.backhome:hover span.backarrow {
   visibility: visible;
 }
-/* line 207, ../../sass/style.scss */
+/* line 212, ../../sass/style.scss */
 .work a.backhome:active span.backarrow, .article a.backhome:active span.backarrow {
   color: black;
 }
-/* line 210, ../../sass/style.scss */
+/* line 215, ../../sass/style.scss */
 .work a.backhome:active span.title, .article a.backhome:active span.title {
   color: blue;
 }
-/* line 215, ../../sass/style.scss */
+/* line 220, ../../sass/style.scss */
 .work p, .article p {
   clear: left;
 }
-/* line 216, ../../sass/style.scss */
+/* line 221, ../../sass/style.scss */
 .work img, .article img {
   width: 100%;
 }
-/* line 217, ../../sass/style.scss */
+/* line 222, ../../sass/style.scss */
 .work iframe, .article iframe {
   width: 100%;
 }
 
-/* line 219, ../../sass/style.scss */
+/* line 224, ../../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 220, ../../sass/style.scss */
+/* line 225, ../../sass/style.scss */
 a.morelink {
   clear: both;
 }
-/* line 221, ../../sass/style.scss */
+/* line 226, ../../sass/style.scss */
 a.morelink:visited {
   color: #0000cc;
 }
 
 @-moz-keyframes upcomingHue {
-  /* line 231, ../../sass/style.scss */
+  /* line 236, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
@@ -1050,7 +1056,7 @@ a.morelink:visited {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 236, ../../sass/style.scss */
+  /* line 241, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1060,7 +1066,7 @@ a.morelink:visited {
 }
 
 @-webkit-keyframes upcomingHue {
-  /* line 231, ../../sass/style.scss */
+  /* line 236, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
@@ -1068,7 +1074,7 @@ a.morelink:visited {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 236, ../../sass/style.scss */
+  /* line 241, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1078,14 +1084,14 @@ a.morelink:visited {
 }
 
 @-o-keyframes upcomingHue {
-  /* line 231, ../../sass/style.scss */
+  /* line 236, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 236, ../../sass/style.scss */
+  /* line 241, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1094,14 +1100,14 @@ a.morelink:visited {
 }
 
 @-ms-keyframes upcomingHue {
-  /* line 231, ../../sass/style.scss */
+  /* line 236, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 236, ../../sass/style.scss */
+  /* line 241, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1110,14 +1116,14 @@ a.morelink:visited {
 }
 
 @keyframes upcomingHue {
-  /* line 231, ../../sass/style.scss */
+  /* line 236, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 236, ../../sass/style.scss */
+  /* line 241, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1125,7 +1131,7 @@ a.morelink:visited {
   }
 }
 
-/* line 243, ../../sass/style.scss */
+/* line 248, ../../sass/style.scss */
 .upcoming h3 {
   -webkit-animation: upcomingHue 3s infinite;
   -moz-animation: upcomingHue 3s infinite;
@@ -1191,7 +1197,7 @@ a.morelink:visited {
   }
 }
 
-/* line 253, ../../sass/style.scss */
+/* line 258, ../../sass/style.scss */
 footer {
   margin-top: 20px;
   text-align: center;
