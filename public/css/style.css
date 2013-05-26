@@ -1202,3 +1202,8 @@ footer {
   margin-top: 20px;
   text-align: center;
 }
+
+/* line 263, ../../sass/style.scss */
+.keywords span {
+  margin-right: 4px;
+}

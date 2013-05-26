@@ -8,7 +8,7 @@
     .work
       h4
         a(class='worklink', href="work/" + work.name + '/')= work.title
-        div
+        div.keywords
           each keyword in work.keywords
             case keyword
               when 'video'
