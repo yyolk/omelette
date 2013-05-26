@@ -6,7 +6,7 @@
 var path = require('path');
 var express = require('express');
 var params = require('express-params');
-var debug = require('debug')('pancake');
+var debug = require('debug')('omelette:');
 
 /**
  * The app.
