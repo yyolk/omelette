@@ -1204,6 +1204,11 @@ footer {
 }
 
 /* line 263, ../../sass/style.scss */
+.keywords {
+  margin-top: 3px;
+}
+
+/* line 266, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
