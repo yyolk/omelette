@@ -34,7 +34,9 @@ cd yolkalyzer
 4. Run the script.
     ```ruby yolkalyzer.rb mesh/model.dae mesh/fuckedupmodel.dae```
 
-_or [download the <span class="fontawesome-bolt"></span> undocumented <span class="fontawesome-bolt"></span> droplet](https://github.com/yyolk/yolkalyzer/archive/droplet.zip)._
+##Droplet
+
+**[<i class="icon-download-alt"></i> download the <span class="fontawesome-bolt"></span> undocumented <span class="fontawesome-bolt"></span> droplet](https://github.com/yyolk/yolkalyzer/archive/droplet.zip)**
 
 ## <a href="http://yolkalyzer.yolk.cc/" class="fontawesome-external-link">online demos</a>
 
