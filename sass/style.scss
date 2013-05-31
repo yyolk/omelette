@@ -229,6 +229,8 @@ a.morelink {
   clear:both;
 }
 
+@include font-face("League Gothic", font-files("fonts/LeagueGothic-Regular-webfont.woff", "fonts/LeagueGothic-Regular-webfont.ttf", "fonts/LeagueGothic-Regular-webfont.svg"));
+
 
 // upcoming 
 
