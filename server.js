@@ -1,7 +1,7 @@
 /* deps */
 
 var http = require('http')
-  , port = parseInt(process.env.PANCAKE_IO_PORT, 10) || process.env.PORT || 3000
+  , port = parseInt(process.env.OMELETTE_IO_PORT, 10) || process.env.PORT || 3000
   , app = require('./app');
 
 // process title
@@ -17,5 +17,5 @@ var server = http.createServer(app);
 
 server.listen(port, function() {
   port = server.address().port;
-  console.log('pancake %j server listening on port %d', app.settings.env, port);
+  console.log('omelette %j server listening on port %d', app.settings.env, port);
 });
