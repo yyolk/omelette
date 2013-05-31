@@ -1049,11 +1049,11 @@ a.morelink:visited {
 
 @font-face {
   font-family: "League Gothic";
-  src: url('//public/css/fonts/fonts/LeagueGothic-Regular-webfont.woff') format('woff'), url('//public/css/fonts/fonts/LeagueGothic-Regular-webfont.ttf') format('truetype'), url('//public/css/fonts/fonts/LeagueGothic-Regular-webfont.svg') format('svg');
+  src: url('//public/css/fonts/fonts/LeagueGothic-Italic-webfont.woff') format('woff'), url('//public/css/fonts/fonts/LeagueGothic-Italic-webfont.ttf') format('truetype'), url('//public/css/fonts/fonts/LeagueGothic-Italic-webfont.svg') format('svg');
 }
 
 @-moz-keyframes upcomingHue {
-  /* line 238, ../../sass/style.scss */
+  /* line 239, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
@@ -1061,7 +1061,7 @@ a.morelink:visited {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 243, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1071,7 +1071,7 @@ a.morelink:visited {
 }
 
 @-webkit-keyframes upcomingHue {
-  /* line 238, ../../sass/style.scss */
+  /* line 239, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
@@ -1079,7 +1079,7 @@ a.morelink:visited {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 243, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1089,14 +1089,14 @@ a.morelink:visited {
 }
 
 @-o-keyframes upcomingHue {
-  /* line 238, ../../sass/style.scss */
+  /* line 239, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 243, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1105,14 +1105,14 @@ a.morelink:visited {
 }
 
 @-ms-keyframes upcomingHue {
-  /* line 238, ../../sass/style.scss */
+  /* line 239, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 243, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1121,14 +1121,14 @@ a.morelink:visited {
 }
 
 @keyframes upcomingHue {
-  /* line 238, ../../sass/style.scss */
+  /* line 239, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 243, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1136,7 +1136,7 @@ a.morelink:visited {
   }
 }
 
-/* line 250, ../../sass/style.scss */
+/* line 251, ../../sass/style.scss */
 .upcoming h3 {
   -webkit-animation: upcomingHue 3s infinite;
   -moz-animation: upcomingHue 3s infinite;
@@ -1202,18 +1202,18 @@ a.morelink:visited {
   }
 }
 
-/* line 260, ../../sass/style.scss */
+/* line 261, ../../sass/style.scss */
 footer {
   margin-top: 20px;
   text-align: center;
 }
 
-/* line 265, ../../sass/style.scss */
+/* line 266, ../../sass/style.scss */
 .keywords {
   margin-top: 3px;
 }
 
-/* line 268, ../../sass/style.scss */
+/* line 269, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
