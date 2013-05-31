@@ -56,12 +56,18 @@ body
     canvas.width = canvas.height = 16;
     var ctx = canvas.getContext('2d');
     ctx.font = 'italic 18px "League Gothic", Arial, sans-serif';
+    function rRGB(){
+      return Math.floor(Math.random()*255);
+    }
+    ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
 
     var nums = ["Y","O","L","K"];
     var i = 0;
 
     setInterval(function(){
       ctx.clearRect(0, 0, 16, 16);
+      ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
+
       var n = nums[i++ % nums.length];
       ctx.fillText(n, 0, 15);
       icon(canvas.toDataURL());
