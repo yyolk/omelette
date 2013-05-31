@@ -1049,7 +1049,7 @@ a.morelink:visited {
 
 @font-face {
   font-family: "League Gothic";
-  src: url('//public/css/fonts/LeagueGothic-Italic-webfont.woff') format('woff'), url('//public/css/fonts/LeagueGothic-Italic-webfont.ttf') format('truetype'), url('//public/css/fonts/LeagueGothic-Italic-webfont.svg') format('svg');
+  src: url('fonts/LeagueGothic-Italic-webfont.woff') format('woff'), url('fonts/LeagueGothic-Italic-webfont.ttf') format('truetype'), url('fonts/LeagueGothic-Italic-webfont.svg') format('svg');
 }
 
 @-moz-keyframes upcomingHue {
