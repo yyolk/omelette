@@ -75,6 +75,11 @@ body
       ctx.fillText(n, 0, 15);
       icon(canvas.toDataURL());
     }, 300);
+  //-
+    script
+      function hideIntro(){
+        document.getElementById("pageintro").className += "slideUp";
+      }
   //-script(src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js")
 //-  script
 //-  document.id || document.write('<script src=\"js/libs/mootools-core-1.4.5-full-nocompat-yc.js\"><\\/script>')

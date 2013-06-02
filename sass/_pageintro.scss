@@ -11,7 +11,7 @@
 
   display: block;
 
-  box-shadow: 10px 10px 5px #888888;
+  // box-shadow: 10px 10px 5px #888888;
 
 }
 #pageintro .inner{
@@ -27,4 +27,8 @@
 #pageintro .inner h1{
   position:relative;
   bottom:-40%; 
+}
+.slideUp{
+  position: relative;
+  top:-110%!important;
 }

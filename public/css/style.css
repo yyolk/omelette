@@ -1220,7 +1220,6 @@ footer {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   display: block;
-  box-shadow: 10px 10px 5px #888888;
 }
 
 /* line 17, ../../sass/_pageintro.scss */
@@ -1239,6 +1238,12 @@ footer {
 #pageintro .inner h1 {
   position: relative;
   bottom: -40%;
+}
+
+/* line 31, ../../sass/_pageintro.scss */
+.slideUp {
+  position: relative;
+  top: -110% !important;
 }
 
 /* line 269, ../../sass/style.scss */
