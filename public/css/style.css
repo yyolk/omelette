@@ -1208,12 +1208,45 @@ footer {
   text-align: center;
 }
 
-/* line 266, ../../sass/style.scss */
+/* line 1, ../../sass/_pageintro.scss */
+#pageintro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  display: block;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+/* line 17, ../../sass/_pageintro.scss */
+#pageintro .inner {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  text-align: center;
+}
+
+/* line 27, ../../sass/_pageintro.scss */
+#pageintro .inner h1 {
+  position: relative;
+  bottom: -40%;
+}
+
+/* line 269, ../../sass/style.scss */
 .keywords {
   margin-top: 3px;
 }
 
-/* line 269, ../../sass/style.scss */
+/* line 272, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
