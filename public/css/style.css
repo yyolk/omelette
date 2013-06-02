@@ -1206,6 +1206,7 @@ a.morelink:visited {
 footer {
   margin-top: 20px;
   text-align: center;
+  color: #e3e3e3;
 }
 
 /* line 1, ../../sass/_pageintro.scss */
@@ -1246,12 +1247,12 @@ footer {
   top: -110% !important;
 }
 
-/* line 269, ../../sass/style.scss */
+/* line 270, ../../sass/style.scss */
 .keywords {
   margin-top: 3px;
 }
 
-/* line 272, ../../sass/style.scss */
+/* line 273, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
