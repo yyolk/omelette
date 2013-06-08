@@ -239,21 +239,33 @@ a.morelink {
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
-    @include drop-shadow-raised;
   }
   50% {
     color: Crimson;
     background-color: LemonChiffon;
-    @include cutout;
   }
 }
 
-.upcoming h3{
+@include keyframes(raiseLower) {
+  0%, 100%{
+    @include drop-shadow-raised;
+  }
+  50% {
+    @include cutout;
+  }
+}
+.upcoming h3, h3.upcoming{
   @include animation(upcomingHue 3s infinite);
+  @include animation(raiseLower 3s infinite);
   @include inline-block;
   padding: 10px;
 }
-
+.upcoming{
+  @include drop-shadow-curved;
+  background-color: #fff;
+  padding:30px;
+  @include animation(upcomingHue 12s infinite);
+}
 // do you like G L I T C H
 
 @import "textshadowrainbow";

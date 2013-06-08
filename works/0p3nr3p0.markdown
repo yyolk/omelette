@@ -10,6 +10,9 @@ The GLI.TC/H 0P3NR3P0 is an open/public repository of glitch art worx. It's a mo
 - initially the 0P3NR3P0 served as a remote submission system for the 2112 GLI.TC/H festival/conference/gathering in Chicago. 
 - at present the 0P3NR3P0's archives are undergoing some maintenence, but in the future it will be perpetually open for submissions && perpetually available for curators intersted in exhibiting glitch worx from the archive. 
 
+<h3 class="upcoming">upcoming share fest</h3>
+<h4><a href="http://0p3nr3p0.net">submit</a></h4>
+<iframe src="https://www.facebook.com/video/embed?video_id=470774939663331" height="720" frameborder="0"></iframe>
 
 ## Featured
 * <span class="fontawesome-map-marker"></span> _Open call begins 8th May_ [0p3nr3p0](/work/0p3nr3p0) will be used for ***Glitch Moment/ums*** [*More information*](http://www.furtherfield.org/programmes/exhibition/glitch-momentums)

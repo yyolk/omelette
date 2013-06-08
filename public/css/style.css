@@ -1057,16 +1057,12 @@ a.morelink:visited {
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
-    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 244, ../../sass/style.scss */
+  /* line 243, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -1075,16 +1071,12 @@ a.morelink:visited {
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
-    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 244, ../../sass/style.scss */
+  /* line 243, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -1093,14 +1085,12 @@ a.morelink:visited {
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 244, ../../sass/style.scss */
+  /* line 243, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -1109,14 +1099,12 @@ a.morelink:visited {
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 244, ../../sass/style.scss */
+  /* line 243, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -1125,24 +1113,91 @@ a.morelink:visited {
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 244, ../../sass/style.scss */
+  /* line 243, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
+  }
+}
+
+@-moz-keyframes raiseLower {
+  /* line 250, ../../sass/style.scss */
+  0%, 100% {
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* line 253, ../../sass/style.scss */
+  50% {
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
-/* line 251, ../../sass/style.scss */
-.upcoming h3 {
+@-webkit-keyframes raiseLower {
+  /* line 250, ../../sass/style.scss */
+  0%, 100% {
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* line 253, ../../sass/style.scss */
+  50% {
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@-o-keyframes raiseLower {
+  /* line 250, ../../sass/style.scss */
+  0%, 100% {
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* line 253, ../../sass/style.scss */
+  50% {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@-ms-keyframes raiseLower {
+  /* line 250, ../../sass/style.scss */
+  0%, 100% {
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* line 253, ../../sass/style.scss */
+  50% {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@keyframes raiseLower {
+  /* line 250, ../../sass/style.scss */
+  0%, 100% {
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* line 253, ../../sass/style.scss */
+  50% {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* line 257, ../../sass/style.scss */
+.upcoming h3, h3.upcoming {
   -webkit-animation: upcomingHue 3s infinite;
   -moz-animation: upcomingHue 3s infinite;
   -ms-animation: upcomingHue 3s infinite;
   -o-animation: upcomingHue 3s infinite;
   animation: upcomingHue 3s infinite;
+  -webkit-animation: raiseLower 3s infinite;
+  -moz-animation: raiseLower 3s infinite;
+  -ms-animation: raiseLower 3s infinite;
+  -o-animation: raiseLower 3s infinite;
+  animation: raiseLower 3s infinite;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -1150,6 +1205,34 @@ a.morelink:visited {
   zoom: 1;
   *display: inline;
   padding: 10px;
+}
+
+/* line 263, ../../sass/style.scss */
+.upcoming {
+  position: relative;
+  background-color: #fff;
+  padding: 30px;
+  -webkit-animation: upcomingHue 12s infinite;
+  -moz-animation: upcomingHue 12s infinite;
+  -ms-animation: upcomingHue 12s infinite;
+  -o-animation: upcomingHue 12s infinite;
+  animation: upcomingHue 12s infinite;
+}
+/* line 63, ../../../../../.rbenv/versions/2.0.0-rc2/lib/ruby/gems/2.0.0/gems/compass-recipes-0.3.0/stylesheets/recipes/shadow/drop/_curved.scss */
+.upcoming:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 0.1;
+  -moz-border-radius: 0.1;
+  border-radius: 0.1;
 }
 
 /* line 1, ../../sass/_textshadowrainbow.scss */
@@ -1202,7 +1285,7 @@ a.morelink:visited {
   }
 }
 
-/* line 261, ../../sass/style.scss */
+/* line 273, ../../sass/style.scss */
 footer {
   margin-top: 20px;
   text-align: center;
@@ -1247,12 +1330,12 @@ footer {
   top: -110% !important;
 }
 
-/* line 270, ../../sass/style.scss */
+/* line 282, ../../sass/style.scss */
 .keywords {
   margin-top: 3px;
 }
 
-/* line 273, ../../sass/style.scss */
+/* line 285, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
