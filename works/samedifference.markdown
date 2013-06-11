@@ -9,8 +9,6 @@ A stateless system that tends to interrupt itself when being viewed in multiple 
 
 The site does not grow unless there is someone viewing it in a browser.
 
-## <a href="http://samedifference.io" class="fontawesome-external-link">SameDifference.io</a>
-
 <iframe src="http://samedifference.io" height="500"></iframe>
 
 [1]: http://samedifference.io "SameDifference"
