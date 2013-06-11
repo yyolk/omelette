@@ -1,6 +1,7 @@
 Title: NOTHINGBETWEEN.US
 Date: Fri, 12 Apr 2013 07:30:11 GMT
 Keywords: experiment, website, code
+Link: http://nothingbetween.us
 
 Anonymous message board. _With style!_
 
@@ -11,7 +12,5 @@ Anonymous message board. _With style!_
 5. Profit!
 
 _Experiment in Anonymous logistics._
-
-## <a href="http://nothingbetween.us" class="fontawesome-external-link">NOTHINGBETWEEN.US</a>
 
 <iframe src="http://nothingbetween.us/tempArchive.html" height="1000"></iframe>
