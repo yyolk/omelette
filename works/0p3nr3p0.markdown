@@ -5,8 +5,6 @@ Link: http://0p3nr3p0.net
 
 An alpha republic repository of [glitch] art worx.
 
-## <a href="http://0p3nr3p0.net/">0P3NR3P0 <i class="icon-external-link"></i></a>
-
 The GLI.TC/H 0P3NR3P0 is an open/public repository of glitch art worx. It's a modular art&&archive project serving multiple goals
 
 - it's been developed as an open port for anyone anywhere to submit glitch art worx (that can be represented by a URL: i.e. video, images, sound, web) 

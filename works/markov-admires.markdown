@@ -1,6 +1,7 @@
 Title: Markov &#9829; Admires
 Date: Fri, 05 Apr 2013 01:37:06 GMT
 Keywords: experiment, code, response
+Link: http://markovadmires.yolk.cc
 
 Response work using [Markov Chains](http://en.wikipedia.org/wiki/Markov_chain)
 

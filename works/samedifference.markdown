@@ -1,8 +1,9 @@
 Title: SameDifference.io
 Date: Fri, 18 Jan 2013 06:46:17 GMT
 Keywords: website, collab
+Link: http://samedifference.io
 
-[SameDifference.io][1] with [Mitch Thar][2]
+with [Mitch Thar][2]
 
 A stateless system that tends to interrupt itself when being viewed in multiple locations at once ((**difference**)) or shows the correct sequence ((**same**)).
 

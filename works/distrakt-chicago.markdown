@@ -1,6 +1,7 @@
 Title: DISTRAKT
 Date: Tuesday, February 5, 2013 01:30:57 GMT
 Keywords: irl, collab
+Link: http://distraktchicago.com
 
 DISTRAKT Chicago
 
