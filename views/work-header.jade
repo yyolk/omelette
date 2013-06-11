@@ -6,6 +6,10 @@ strong
   | Published: 
   date = work.date
   span(title=strftime('%B %d, %Y %H:%M UTC', date))= strftime('%Y.%m.%d', date)
+if work.link
+  h2 
+    a(href="work.link") work.title
+      i(class="icon-external-link")
 div.keywords
   each keyword in work.keywords
     include keyword-symbols
