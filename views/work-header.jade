@@ -11,6 +11,9 @@ if work.link
     a(href=work.link)
       |#{work.title} 
       i(class="icon-external-link")
+if work.github
+  h2
+    a(href=work.github, class="icon-github")
 div.keywords
   each keyword in work.keywords
     include keyword-symbols
