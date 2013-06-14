@@ -5,7 +5,7 @@ Link: http://nothingbetween.us
 
 Anonymous message board. _With style!_
 
-1. 1,024 limitation on characters (***no dupe posts***)
+1. 1,024 limitation on characters <del>(***no dupe posts***)</del>
 2. Force Anonymity
 3. Stop giving a fuck.
 4. ???
