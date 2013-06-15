@@ -76,8 +76,11 @@ body
     $("#outline").fracs("outline", {
       crop: true,
       styles: [{
-          selector: 'header,footer,section,article',
+          selector: 'header, footer',
           fillStyle: 'rgb(230,230,230)'
+        }, {
+          selector: 'header a',
+          fillStyle: 'rgb(255,120,120)'
         }, {
           selector: 'h1',
           fillStyle: 'rgb(240,140,060)'
