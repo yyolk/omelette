@@ -7,4 +7,4 @@ DISTRAKT Chicago
 
 A one-off _new media_ nightclub event.
 
-<iframe height="720" src="http://www.youtube.com/embed/5FqAAi4cxKA" frameborder="0" allowfullscreen></iframe>
+<iframe height="720" src="http://www.youtube.com/embed/5FqAAi4cxKA?rel=0" frameborder="0" allowfullscreen></iframe>
