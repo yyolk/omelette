@@ -211,6 +211,9 @@ require.register("yyolk-jquery-fracs/index.js", Function("exports, require, modu
 require.alias("component-favicon/index.js", "omelette/deps/favicon/index.js");
 require.alias("component-favicon/index.js", "favicon/index.js");
 
+require.alias("component-jquery/index.js", "omelette/deps/jquery/index.js");
+require.alias("component-jquery/index.js", "jquery/index.js");
+
 require.alias("yyolk-jquery-fracs/index.js", "omelette/deps/jquery-fracs/index.js");
 require.alias("yyolk-jquery-fracs/index.js", "omelette/deps/jquery-fracs/index.js");
 require.alias("yyolk-jquery-fracs/index.js", "jquery-fracs/index.js");

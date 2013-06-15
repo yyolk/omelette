@@ -6,6 +6,7 @@
   "keywords": [],
   "dependencies": {
     "component/favicon":"*",
+    "component/jquery":"*",
     "yyolk/jquery-fracs": "*"
     },
   "development": {},
