@@ -6,7 +6,7 @@
   "keywords": [],
   "dependencies": {
     "component/favicon":"*",
-    "yyolk/jQuery.fracs": "*"
+    "yyolk/jquery-fracs": "*"
     },
   "development": {},
   "license": "MIT"
