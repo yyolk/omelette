@@ -16,3 +16,5 @@ node_modules.c9revisions
 npm-debug.log
 node_modules
 .sass-cache
+components
+build
