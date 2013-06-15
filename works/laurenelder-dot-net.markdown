@@ -5,6 +5,4 @@ Link: http://laurenelder.net
 
 Lauren Elder Portfolio
 
-[LaurenElder.net](http://laurenelder.net)
-
 <iframe src="http://laurenelder.net" height='1000'>
