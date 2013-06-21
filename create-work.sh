@@ -14,5 +14,5 @@ echo >> "$FILE"
 
 # edit
 if [ "x$EDITOR" != "x" ]; then
-  "$EDITOR" "$FILE"
+  $EDITOR "$FILE"
 fi
