@@ -976,30 +976,35 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
   background-color: black;
 }
 
-/* line 178, ../../sass/style.scss */
+/* line 175, ../../sass/style.scss */
+.keywords span {
+  cursor: help;
+}
+
+/* line 181, ../../sass/style.scss */
 a.morelink:hover {
   color: white;
   background-color: blue;
 }
-/* line 180, ../../sass/style.scss */
+/* line 183, ../../sass/style.scss */
 a.morelink:hover:visited {
   color: white;
 }
-/* line 184, ../../sass/style.scss */
+/* line 187, ../../sass/style.scss */
 a.morelink:hover:active {
   background-color: white;
 }
 
-/* line 200, ../../sass/style.scss */
+/* line 203, ../../sass/style.scss */
 .work span.pdate, .article span.pdate {
   float: right;
 }
-/* line 202, ../../sass/style.scss */
+/* line 205, ../../sass/style.scss */
 .work a.backhome, .article a.backhome {
   margin-left: -36px;
   color: black;
 }
-/* line 205, ../../sass/style.scss */
+/* line 208, ../../sass/style.scss */
 .work a.backhome span.backarrow, .article a.backhome span.backarrow {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1010,41 +1015,41 @@ a.morelink:hover:active {
   position: relative;
   visibility: hidden;
 }
-/* line 210, ../../sass/style.scss */
+/* line 213, ../../sass/style.scss */
 .work a.backhome:hover span.backarrow, .article a.backhome:hover span.backarrow {
   visibility: visible;
 }
-/* line 214, ../../sass/style.scss */
+/* line 217, ../../sass/style.scss */
 .work a.backhome:active span.backarrow, .article a.backhome:active span.backarrow {
   color: black;
 }
-/* line 217, ../../sass/style.scss */
+/* line 220, ../../sass/style.scss */
 .work a.backhome:active span.title, .article a.backhome:active span.title {
   color: blue;
 }
-/* line 222, ../../sass/style.scss */
+/* line 225, ../../sass/style.scss */
 .work p, .article p {
   clear: left;
 }
-/* line 223, ../../sass/style.scss */
+/* line 226, ../../sass/style.scss */
 .work img, .article img {
   width: 100%;
 }
-/* line 224, ../../sass/style.scss */
+/* line 227, ../../sass/style.scss */
 .work iframe, .article iframe {
   width: 100%;
 }
 
-/* line 226, ../../sass/style.scss */
+/* line 229, ../../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 227, ../../sass/style.scss */
+/* line 230, ../../sass/style.scss */
 a.morelink {
   clear: both;
 }
-/* line 228, ../../sass/style.scss */
+/* line 231, ../../sass/style.scss */
 a.morelink:visited {
   color: #0000cc;
 }
@@ -1055,13 +1060,13 @@ a.morelink:visited {
 }
 
 @-moz-keyframes upcomingHue {
-  /* line 241, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 245, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1069,13 +1074,13 @@ a.morelink:visited {
 }
 
 @-webkit-keyframes upcomingHue {
-  /* line 241, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 245, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1083,13 +1088,13 @@ a.morelink:visited {
 }
 
 @-o-keyframes upcomingHue {
-  /* line 241, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 245, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1097,13 +1102,13 @@ a.morelink:visited {
 }
 
 @-ms-keyframes upcomingHue {
-  /* line 241, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 245, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1111,13 +1116,13 @@ a.morelink:visited {
 }
 
 @keyframes upcomingHue {
-  /* line 241, ../../sass/style.scss */
+  /* line 244, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 245, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
@@ -1125,13 +1130,13 @@ a.morelink:visited {
 }
 
 @-moz-keyframes raiseLower {
-  /* line 252, ../../sass/style.scss */
+  /* line 255, ../../sass/style.scss */
   0%, 100% {
     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 255, ../../sass/style.scss */
+  /* line 258, ../../sass/style.scss */
   50% {
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -1139,13 +1144,13 @@ a.morelink:visited {
 }
 
 @-webkit-keyframes raiseLower {
-  /* line 252, ../../sass/style.scss */
+  /* line 255, ../../sass/style.scss */
   0%, 100% {
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 255, ../../sass/style.scss */
+  /* line 258, ../../sass/style.scss */
   50% {
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -1153,42 +1158,42 @@ a.morelink:visited {
 }
 
 @-o-keyframes raiseLower {
-  /* line 252, ../../sass/style.scss */
+  /* line 255, ../../sass/style.scss */
   0%, 100% {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 255, ../../sass/style.scss */
+  /* line 258, ../../sass/style.scss */
   50% {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
 @-ms-keyframes raiseLower {
-  /* line 252, ../../sass/style.scss */
+  /* line 255, ../../sass/style.scss */
   0%, 100% {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 255, ../../sass/style.scss */
+  /* line 258, ../../sass/style.scss */
   50% {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
 @keyframes raiseLower {
-  /* line 252, ../../sass/style.scss */
+  /* line 255, ../../sass/style.scss */
   0%, 100% {
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 255, ../../sass/style.scss */
+  /* line 258, ../../sass/style.scss */
   50% {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
 
-/* line 259, ../../sass/style.scss */
+/* line 262, ../../sass/style.scss */
 .upcoming h3, h3.upcoming {
   -webkit-animation: upcomingHue 3s infinite;
   -moz-animation: upcomingHue 3s infinite;
@@ -1209,7 +1214,7 @@ a.morelink:visited {
   padding: 10px;
 }
 
-/* line 265, ../../sass/style.scss */
+/* line 268, ../../sass/style.scss */
 .upcoming {
   position: relative;
   background-color: #fff;
@@ -1287,7 +1292,7 @@ a.morelink:visited {
   }
 }
 
-/* line 275, ../../sass/style.scss */
+/* line 278, ../../sass/style.scss */
 footer {
   margin-top: 20px;
   text-align: center;
@@ -1332,12 +1337,12 @@ footer {
   top: -110% !important;
 }
 
-/* line 284, ../../sass/style.scss */
+/* line 287, ../../sass/style.scss */
 .keywords {
   margin-top: 3px;
 }
 
-/* line 287, ../../sass/style.scss */
+/* line 290, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
