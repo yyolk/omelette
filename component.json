@@ -9,7 +9,8 @@
     "component/jquery":"*",
     "yyolk/jquery-fracs": "*",
     "component/filter": "*",
-    "component/tip": "*"
+    "component/tip": "*",
+    "component/aurora-tip": "*"
     },
   "development": {},
   "license": "MIT"

@@ -226,6 +226,7 @@ require.register("component-tip/index.js", Function("exports, require, module",
 require.register("component-tip/template.js", Function("exports, require, module",
 "module.exports = '<div class=\"tip tip-hide\">\\n  <div class=\"tip-arrow\"></div>\\n  <div class=\"tip-inner\"></div>\\n</div>';//@ sourceURL=component-tip/template.js"
 ));
+
 require.alias("component-favicon/index.js", "omelette/deps/favicon/index.js");
 require.alias("component-favicon/index.js", "favicon/index.js");
 
@@ -250,4 +251,5 @@ require.alias("component-tip/index.js", "tip/index.js");
 require.alias("component-emitter/index.js", "component-tip/deps/emitter/index.js");
 
 require.alias("component-jquery/index.js", "component-tip/deps/jquery/index.js");
+
 
