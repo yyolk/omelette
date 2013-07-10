@@ -290,3 +290,22 @@ footer{
 .keywords span{
   margin-right:4px;
 }
+
+#keywordFilter{
+  margin-top: 20px;
+  a{
+    font-size:120%;
+    margin-right:8px;
+  }
+}
+
+// filtering
+
+@import "compass/utilities/lists/bullets";
+
+ul{
+  @include no-bullets;
+}
+.hide{
+  display: none;
+}

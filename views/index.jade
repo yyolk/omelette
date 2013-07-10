@@ -1,17 +1,22 @@
 #doyouliek
   a(href="https://www.facebook.com/groups/glitchglitch") U LIEK GLITCH?
 
-
+#keywordFilter
+  - var keywords = ["video", "website", "collab", "code", "experiment", "freelance", "irl", "response", "sound", "hardware"]
+  each keyword in keywords
+    include keyword-filters
 .works
   h3 works
-  each work in works
-    .work
-      h4
-        a(class='worklink', href="work/" + work.name + '/')= work.title
-        div.keywords
-          each keyword in work.keywords
-            include keyword-symbols
-        date = work.date
-        span(title=strftime('%B %d, %Y %H:%M UTC', date), class="pdate")= strftime('%Y.%m.%d', date)
-      | !{work.desc}
-    hr(class='clear')
+  ul
+    each work in works
+      li(class=work.keywords)
+        .work
+            h4
+              a(class='worklink', href="work/" + work.name + '/')= work.title
+              div.keywords
+                each keyword in work.keywords
+                  include keyword-symbols
+              date = work.date
+              span(title=strftime('%B %d, %Y %H:%M UTC', date), class="pdate")= strftime('%Y.%m.%d', date)
+            | !{work.desc}
+      hr(class='clear')

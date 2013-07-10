@@ -99,6 +99,38 @@ body
         }
       ]
     });
+  script
+    var Tip = require('tip');
+    var keywords = ["video", "website", "collab", "code", "experiment", "freelance", "irl", "response", "sound", "hardware"];
+    for (i=0; i<keywords.length; i++){
+      var el = $('#filter'+keywords[i])
+      var tip = new Tip(el.textContext);
+      tip.position(el.textContext.toLowerCase().split('-').join(' '));
+      $('#filter'+keywords[i]).hover(function(){
+        tip.show($(this));
+      }, function(){
+        tip.hide(200);
+      });
+    }
+  script
+    var keyword = "";
+    var filter = require('filter');
+    var selector = document.querySelector('ul');
+    $("#keywordFilter a").each(function(){
+        $(this).click(function(){
+          input = $(this).attr("title");
+          subFilter(input);
+          console.log(input);
+          });
+      });
+    function subFilter(str){
+      filter(selector, function(h4){
+        console.log(h4.className);
+        if (h4.classList.contains(str)){
+          return ~h4;
+        }
+      });
+    }
   //script(src="js/plugins.js")
   //script(src="js/script.js")
   //- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.

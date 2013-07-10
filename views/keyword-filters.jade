@@ -1,0 +1,23 @@
+case keyword
+  when 'video'
+    a(class='fontawesome-film', title='video', id="filter#{keyword}")
+  when 'website'
+    a(class='fontawesome-bookmark', title='website', id="filter#{keyword}")
+  when 'collab'
+    a(class='fontawesome-retweet', title='collaboration', id="filter#{keyword}")
+  when 'code'
+    a(class='icon-code', title='code', id="filter#{keyword}")
+  when 'experiment'
+    a(class='fontawesome-beaker', title='experiment', id="filter#{keyword}")
+  when 'freelance'
+    a(class='fontawesome-money', title='freelance', id="filter#{keyword}")
+  when 'irl'
+    a(class='fontawesome-screenshot', title='in real life', id="filter#{keyword}")
+  when 'response'
+    a(class='icon-mail-reply-all', title='response work', id="filter#{keyword}")
+  when 'sound'
+    a(class='icon-music', title='sound', id="filter#{keyword}")
+  when 'hardware'
+    a(class='icon-cogs', title='hardware', id="filter#{keyword}")
+  default
+    span
