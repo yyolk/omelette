@@ -87,8 +87,10 @@ body { padding: 40px; }
 @import "recipes/shadow/drop";
 @import "recipes/effect/cutout";
 
-@import "animate";
+// @import "animate";
+
 @import "animation";
+@import "animation/animate";
 
 header { 
   .nav a{
@@ -142,7 +144,7 @@ a {
     &{
       @include drop-shadow-raised;
       @include transition-duration(.4s);
-      @include animate-bounceIn;
+      // @include animate-bounceIn;
     }
   }
 }
@@ -150,7 +152,7 @@ a.worklink, a.articlelink, a.morelink{
   &:hover{
     @include cutout;
     @include transition-duration(.4s);
-    @include animate-bounceIn;
+    // @include animate-bounceIn;
   }
 }
 
@@ -296,16 +298,19 @@ footer{
   a{
     font-size:120%;
     margin-right:8px;
+    cursor:pointer;
   }
 }
 
 // filtering
 
-@import "compass/utilities/lists/bullets";
+@import "compass/typography/lists/bullets";
 
 ul{
   @include no-bullets;
+  padding:0;
 }
+// @include animate-fadeOut;
 .hide{
-  display: none;
+  display:none;
 }

@@ -25,6 +25,7 @@ head
   //- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
   link(rel="stylesheet", href="/css/style.css")
   link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css")
+  link(rel="stylesheet", href="/build.css")
   //- More ideas for your <head> here: h5bp.com/d/head-Tips
   //-
   //- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
@@ -100,18 +101,29 @@ body
       ]
     });
   script
+    // var tip = require('tip');
+    // tip.position('north');
+    // tip('#keywordFilter a[title]', { delay: 200 });
     var Tip = require('tip');
-    var keywords = ["video", "website", "collab", "code", "experiment", "freelance", "irl", "response", "sound", "hardware"];
-    for (i=0; i<keywords.length; i++){
-      var el = $('#filter'+keywords[i])
-      var tip = new Tip(el.textContext);
-      tip.position(el.textContext.toLowerCase().split('-').join(' '));
-      $('#filter'+keywords[i]).hover(function(){
-        tip.show($(this));
-      }, function(){
-        tip.hide(200);
-      });
-    }
+    var keywords = ["video", "website", "collaboration", "code", "experiment", "freelance", "in real life", "response", "sound", "hardware"];
+    $("#keywordFilter a").each(function(i, el){
+        var tip = new Tip(keywords[i]);
+        tip.position('north');
+        $(el).hover(function(){
+          tip.show(el);
+        }, function(){
+          tip.hide();
+        });
+    });
+    // for (i=0; i<keywords.length; i++){
+    //   var el = '#filter-'+keywords[i];
+    //   var tip = new Tip(''+keywords[i]);
+    //   $('#filter-'+keywords[i]).hover(function(){
+    //     tip.show(el);
+    //   }, function(){
+    //     tip.hide(200);
+    //   });
+    // }
   script
     var keyword = "";
     var filter = require('filter');
@@ -120,12 +132,10 @@ body
         $(this).click(function(){
           input = $(this).attr("title");
           subFilter(input);
-          console.log(input);
           });
       });
     function subFilter(str){
       filter(selector, function(h4){
-        console.log(h4.className);
         if (h4.classList.contains(str)){
           return ~h4;
         }
