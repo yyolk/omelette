@@ -1355,9 +1355,10 @@ footer {
 #keywordFilter a {
   font-size: 120%;
   margin-right: 8px;
+  cursor: pointer;
 }
 
-/* line 306, ../../sass/style.scss */
+/* line 307, ../../sass/style.scss */
 ul {
   list-style: none;
 }
@@ -1368,7 +1369,7 @@ ul li {
   margin-left: 0;
 }
 
-/* line 309, ../../sass/style.scss */
+/* line 310, ../../sass/style.scss */
 .hide {
   display: none;
 }
