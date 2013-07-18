@@ -2,6 +2,8 @@ Title: Fundamentals
 Date: Sat, 1 Jan 2011 02:31:00 GMT
 Keywords: website, code
 Link: http://fundamentals.yolk.cc
+Published: false
+
 
 YOLK : Fundamentals
 
