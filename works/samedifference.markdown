@@ -17,5 +17,7 @@ The site does not grow unless there is someone viewing it in a browser.
 ![](http://farm6.staticflickr.com/5532/10065520304_b5622063e5_h.jpg)
 ![](http://farm8.staticflickr.com/7398/10065670113_31973ad5f8_h.jpg)
 
+_Photos by [Mitch Thar][2]_
+
 [1]: http://samedifference.io "SameDifference"
 [2]: http://mitchellthar.com/ "Mitchell Thar"
