@@ -10,6 +10,9 @@ A stateless system that tends to interrupt itself when being viewed in multiple 
 
 The site does not grow unless there is someone viewing it in a browser.
 
+## Featured
+* <span class="fontawesome-map-marker"></span> **Friday, January 18th, 2013** Featured at [Standard Deluxe][3] _images shown below_
+
 <iframe src="http://samedifference.io" height="500"></iframe>
 
 ![](http://farm8.staticflickr.com/7359/10065595326_27c4800962_h.jpg)
@@ -17,7 +20,8 @@ The site does not grow unless there is someone viewing it in a browser.
 ![](http://farm8.staticflickr.com/7398/10065670113_31973ad5f8_h.jpg)
 ![](http://farm4.staticflickr.com/3744/10065527805_9f7bcf72da_h.jpg)
 
-_Photos by [Mitch Thar][2]_
+_Photos by [Arien Cater][3]_
 
 [1]: http://samedifference.io "SameDifference"
 [2]: http://mitchellthar.com/ "Mitchell Thar"
+[3]: http://www.standard-deluxe.ch/ "Standard Deluxe"
