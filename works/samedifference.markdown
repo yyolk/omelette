@@ -11,7 +11,7 @@ A stateless system that tends to interrupt itself when being viewed in multiple 
 The site does not grow unless there is someone viewing it in a browser.
 
 ## Featured
-* <span class="fontawesome-map-marker"></span> **Friday, January 18th, 2013** Featured at [Standard Deluxe][3] _images shown below_
+* <span class="fontawesome-map-marker"></span> **Friday, January 18th, 2013** Featured at [Standard Deluxe][3] for [Mitchell Thar & Robin Waart: _same/difference_][4]
 
 <iframe src="http://samedifference.io" height="500"></iframe>
 
@@ -25,3 +25,4 @@ _Photos by [Arien Cater][3]_
 [1]: http://samedifference.io "SameDifference"
 [2]: http://mitchellthar.com/ "Mitchell Thar"
 [3]: http://www.standard-deluxe.ch/ "Standard Deluxe"
+[4]: https://www.facebook.com/events/432533030153196/permalink/432533033486529/ "Mitchell Thar & Robin Waart: same/difference"
