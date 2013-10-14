@@ -29,7 +29,8 @@
     "marked": "0",
     "strftime": "0",
     "highlight.js": "7.3.0",
-    "mime": "1.2.9"
+    "mime": "1.2.9",
+    "markdown-walker": "~0.1.0"
   },
   "devDependencies": {}
 }
