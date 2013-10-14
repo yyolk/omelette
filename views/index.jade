@@ -3,9 +3,8 @@
 
 .recently-updated
   h3 recent-updates
-  ul
   each work in recently_updated
-    li
+    h4
       a(class='worklink', href='work/'+work+'/')=work
 .works
   h3 works
