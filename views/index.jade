@@ -1,7 +1,12 @@
 #doyouliek
   a(href="https://www.facebook.com/groups/glitchglitch") U LIEK GLITCH?
 
-
+.recently-updated
+  h3 recent-updates
+  ul
+  each work in recently_updated
+    li
+      a(class='worklink', href='work/'+work+'/')=work
 .works
   h3 works
   #keywordFilter

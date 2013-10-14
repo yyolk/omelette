@@ -19,3 +19,6 @@ article:
 
 work:
 	@./create-work.sh
+
+recent:
+	@node recent > recent.txt
