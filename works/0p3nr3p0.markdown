@@ -4,6 +4,10 @@ Keywords: collab, website, irl, code
 Link: http://0p3nr3p0.net
 Github: https://github.com/yyolk/0P3NR3P0
 
+
+> # UPDATE
+> After finally setting up on a new host, [the R3P0 is now working again](http://0p3nr3p0.net).
+
 An alpha republic repository of [glitch] art worx.
 
 The GLI.TC/H 0P3NR3P0 is an open/public repository of glitch art worx. It's a modular art&&archive project serving multiple goals

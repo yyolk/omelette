@@ -1,3 +1,4 @@
+@import "compass";
 // Disclaimer for the result file style.css 
 /*
 * Please don't touch style.css directly, use style.scss instead.
@@ -313,4 +314,11 @@ ul{
 // @include animate-fadeOut;
 .hide{
   display:none;
+}
+
+// blockquote
+
+blockquote {
+  border-left: 4px solid black; 
+  padding-left: 10px;
 }
