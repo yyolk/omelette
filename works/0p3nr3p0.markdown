@@ -7,7 +7,7 @@ Github: https://github.com/yyolk/0P3NR3P0
 An alpha republic repository of [glitch] art worx.
 
 > # UPDATE
-> After finally setting up on a new host, [the R3P0 is now working again](http://0p3nr3p0.net).
+> Sudlab ( Naples, IT ) will be hosting an IRL show entitled Tactical Glitches. The exhibition features work by new-media artists who tactfully leverage glitches as a break, slippage, intervention towards political ends. If you have produced glitch worx with political impetuses/agendas we invite you to submit a link ( html, jpg, gif, youtube, vimeo, etc ) to your piece to the 0p3nr3p0 component of the exhibition. Your piece will automatically be included in the line-up (one work per artist) and will be projected along with the other worx in the 0p3nr3p0 throughout the duration of the show IRL at Sudlab. 
 
 The GLI.TC/H 0P3NR3P0 is an open/public repository of glitch art worx. It's a modular art&&archive project serving multiple goals
 
