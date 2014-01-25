@@ -9608,7 +9608,7 @@ a.morelink:visited {
 
 @font-face {
   font-family: "League Gothic";
-  src: url('fonts/LeagueGothic-Italic-webfont.woff?1365529594') format('woff'), url('fonts/LeagueGothic-Italic-webfont.ttf?1365529594') format('truetype'), url('fonts/LeagueGothic-Italic-webfont.svg?1365529594') format('svg');
+  src: url('../fonts/leaguegothic-italic-webfont.woff?1347279900') format('woff'), url('../fonts/leaguegothic-italic-webfont.ttf?1347279900') format('truetype'), url('../fonts/leaguegothic-italic-webfont.svg?1347279900') format('svg');
 }
 @-moz-keyframes upcomingHue {
   /* line 247, ../../sass/style.scss */
