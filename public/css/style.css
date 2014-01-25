@@ -9515,49 +9515,50 @@ a.worklink:hover, a.articlelink:hover, a.morelink:hover {
 /* line 165, ../../sass/style.scss */
 .yolk a {
   margin: 10px;
-  padding: 20px;
   color: black;
+  padding: 0;
 }
 /* line 169, ../../sass/style.scss */
 .yolk a:hover {
+  padding: 20px;
   background-color: black;
   color: white;
 }
-/* line 172, ../../sass/style.scss */
+/* line 173, ../../sass/style.scss */
 .yolk a:hover:active {
   color: white;
   background-color: black;
 }
 
-/* line 178, ../../sass/style.scss */
+/* line 179, ../../sass/style.scss */
 .keywords span {
   cursor: help;
 }
 
-/* line 184, ../../sass/style.scss */
+/* line 185, ../../sass/style.scss */
 a.morelink:hover {
   color: white;
   background-color: blue;
 }
-/* line 186, ../../sass/style.scss */
+/* line 187, ../../sass/style.scss */
 a.morelink:hover:visited {
   color: white;
 }
-/* line 190, ../../sass/style.scss */
+/* line 191, ../../sass/style.scss */
 a.morelink:hover:active {
   background-color: white;
 }
 
-/* line 206, ../../sass/style.scss */
+/* line 207, ../../sass/style.scss */
 .work span.pdate, .article span.pdate {
   float: right;
 }
-/* line 208, ../../sass/style.scss */
+/* line 209, ../../sass/style.scss */
 .work a.backhome, .article a.backhome {
   margin-left: -36px;
   color: black;
 }
-/* line 211, ../../sass/style.scss */
+/* line 212, ../../sass/style.scss */
 .work a.backhome span.backarrow, .article a.backhome span.backarrow {
   display: inline-block;
   vertical-align: middle;
@@ -9567,41 +9568,41 @@ a.morelink:hover:active {
   position: relative;
   visibility: hidden;
 }
-/* line 216, ../../sass/style.scss */
+/* line 217, ../../sass/style.scss */
 .work a.backhome:hover span.backarrow, .article a.backhome:hover span.backarrow {
   visibility: visible;
 }
-/* line 220, ../../sass/style.scss */
+/* line 221, ../../sass/style.scss */
 .work a.backhome:active span.backarrow, .article a.backhome:active span.backarrow {
   color: black;
 }
-/* line 223, ../../sass/style.scss */
+/* line 224, ../../sass/style.scss */
 .work a.backhome:active span.title, .article a.backhome:active span.title {
   color: blue;
 }
-/* line 228, ../../sass/style.scss */
+/* line 229, ../../sass/style.scss */
 .work p, .article p {
   clear: left;
 }
-/* line 229, ../../sass/style.scss */
+/* line 230, ../../sass/style.scss */
 .work img, .article img {
   width: 100%;
 }
-/* line 230, ../../sass/style.scss */
+/* line 231, ../../sass/style.scss */
 .work iframe, .article iframe {
   width: 100%;
 }
 
-/* line 232, ../../sass/style.scss */
+/* line 233, ../../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 233, ../../sass/style.scss */
+/* line 234, ../../sass/style.scss */
 a.morelink {
   clear: both;
 }
-/* line 234, ../../sass/style.scss */
+/* line 235, ../../sass/style.scss */
 a.morelink:visited {
   color: #0000cc;
 }
@@ -9611,79 +9612,79 @@ a.morelink:visited {
   src: url('../fonts/leaguegothic-italic-webfont.woff?1347279900') format('woff'), url('../fonts/leaguegothic-italic-webfont.ttf?1347279900') format('truetype'), url('../fonts/leaguegothic-italic-webfont.svg?1347279900') format('svg');
 }
 @-moz-keyframes upcomingHue {
-  /* line 247, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 251, ../../sass/style.scss */
+  /* line 252, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
   }
 }
 @-webkit-keyframes upcomingHue {
-  /* line 247, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 251, ../../sass/style.scss */
+  /* line 252, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
   }
 }
 @-o-keyframes upcomingHue {
-  /* line 247, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 251, ../../sass/style.scss */
+  /* line 252, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
   }
 }
 @-ms-keyframes upcomingHue {
-  /* line 247, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 251, ../../sass/style.scss */
+  /* line 252, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
   }
 }
 @keyframes upcomingHue {
-  /* line 247, ../../sass/style.scss */
+  /* line 248, ../../sass/style.scss */
   0%, 100% {
     color: LemonChiffon;
     background-color: Crimson;
   }
 
-  /* line 251, ../../sass/style.scss */
+  /* line 252, ../../sass/style.scss */
   50% {
     color: Crimson;
     background-color: LemonChiffon;
   }
 }
 @-moz-keyframes raiseLower {
-  /* line 258, ../../sass/style.scss */
+  /* line 259, ../../sass/style.scss */
   0%, 100% {
     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 261, ../../sass/style.scss */
+  /* line 262, ../../sass/style.scss */
   50% {
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -9691,14 +9692,14 @@ a.morelink:visited {
   }
 }
 @-webkit-keyframes raiseLower {
-  /* line 258, ../../sass/style.scss */
+  /* line 259, ../../sass/style.scss */
   0%, 100% {
     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 261, ../../sass/style.scss */
+  /* line 262, ../../sass/style.scss */
   50% {
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -9706,14 +9707,14 @@ a.morelink:visited {
   }
 }
 @-o-keyframes raiseLower {
-  /* line 258, ../../sass/style.scss */
+  /* line 259, ../../sass/style.scss */
   0%, 100% {
     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 261, ../../sass/style.scss */
+  /* line 262, ../../sass/style.scss */
   50% {
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -9721,14 +9722,14 @@ a.morelink:visited {
   }
 }
 @-ms-keyframes raiseLower {
-  /* line 258, ../../sass/style.scss */
+  /* line 259, ../../sass/style.scss */
   0%, 100% {
     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 261, ../../sass/style.scss */
+  /* line 262, ../../sass/style.scss */
   50% {
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
@@ -9736,21 +9737,21 @@ a.morelink:visited {
   }
 }
 @keyframes raiseLower {
-  /* line 258, ../../sass/style.scss */
+  /* line 259, ../../sass/style.scss */
   0%, 100% {
     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 261, ../../sass/style.scss */
+  /* line 262, ../../sass/style.scss */
   50% {
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 5px 5px rgba(0, 0, 0, 0.6), inset 0 1px 5px rgba(0, 0, 0, 0.6);
   }
 }
-/* line 265, ../../sass/style.scss */
+/* line 266, ../../sass/style.scss */
 .upcoming h3, h3.upcoming {
   -webkit-animation: upcomingHue 3s infinite;
   -moz-animation: upcomingHue 3s infinite;
@@ -9770,7 +9771,7 @@ a.morelink:visited {
   padding: 10px;
 }
 
-/* line 271, ../../sass/style.scss */
+/* line 272, ../../sass/style.scss */
 .upcoming {
   position: relative;
   background-color: #fff;
@@ -9843,7 +9844,7 @@ a.morelink:visited {
     text-shadow: -1px  1px 0 #0000ff, -2px  2px 0 #1a1aff, -3px  3px 0 #3434ff, -4px  4px 0 #4e4eff, -5px  5px 0 #6868ff, -6px  6px 0 #ff1c1c, -7px  7px 0 #ff3636, -8px  8px 0 #ff5050, -9px  9px 0 #ff6a6a, -10px 10px 0 #ff8484, -11px 11px 0 #84ff84, -12px 12px 0 #6bff6b, -13px 13px 0 #52ff52, -14px 14px 0 #39ff39, -15px 15px 0 #1fff1f,             -16px 16px 0 #ff1f8f, -17px 17px 0 #ff399c, -18px 18px 0 #ff53a9, -19px 19px 0 #ff6db6, -20px 20px 0 #ff87c3,   -21px 21px 0 #0000ff, -22px 22px 0 #1a1aff, -23px 23px 0 #3434ff, -24px 24px 0 #4e4eff, -25px 25px 0 #6868ff;
   }
 }
-/* line 281, ../../sass/style.scss */
+/* line 282, ../../sass/style.scss */
 footer {
   margin-top: 20px;
   text-align: center;
@@ -9888,28 +9889,28 @@ footer {
   top: -110% !important;
 }
 
-/* line 290, ../../sass/style.scss */
+/* line 291, ../../sass/style.scss */
 .keywords {
   margin-top: 3px;
 }
 
-/* line 293, ../../sass/style.scss */
+/* line 294, ../../sass/style.scss */
 .keywords span {
   margin-right: 4px;
 }
 
-/* line 297, ../../sass/style.scss */
+/* line 298, ../../sass/style.scss */
 #keywordFilter {
   margin-top: 20px;
 }
-/* line 299, ../../sass/style.scss */
+/* line 300, ../../sass/style.scss */
 #keywordFilter a {
   font-size: 120%;
   margin-right: 8px;
   cursor: pointer;
 }
 
-/* line 310, ../../sass/style.scss */
+/* line 311, ../../sass/style.scss */
 ul {
   list-style: none;
   padding: 0;
@@ -9921,12 +9922,12 @@ ul li {
   margin-left: 0;
 }
 
-/* line 315, ../../sass/style.scss */
+/* line 316, ../../sass/style.scss */
 .hide {
   display: none;
 }
 
-/* line 321, ../../sass/style.scss */
+/* line 322, ../../sass/style.scss */
 blockquote {
   border-left: 4px solid black;
   padding-left: 10px;
