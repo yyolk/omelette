@@ -62,7 +62,8 @@ app.param('work', /^[0-9a-z-_]+$/);
 app.get('/work/:work', require('./lib/work'));
 
 app.get('/work/:work/*', require('./lib/work-assets'));
-                       
+
+app.get('/r/:sitename', require('./lib/redirect'));
     // finally attempt to serve static files from the public/ dir
 app.get('*', require('./lib/static'));
 
