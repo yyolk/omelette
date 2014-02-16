@@ -1,7 +1,7 @@
 Title: NOTHINGBETWEEN.US
 Date: Fri, 12 Apr 2013 07:30:11 GMT
 Keywords: experiment, website, code
-Link: http://nothingbetween.us
+Link: http://yyolk.github.io/nothingbetween.us/
 Github: https://github.com/yyolk/nothingbetween.us
 
 Anonymous message board. _With style!_
@@ -14,4 +14,4 @@ Anonymous message board. _With style!_
 
 _Experiment in Anonymous logistics._
 
-<iframe src="http://nothingbetween.us/tempArchive.html" height="1000"></iframe>
+<iframe src="http://yyolk.github.io/nothingbetween.us/" height="1000"></iframe>
