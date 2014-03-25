@@ -40,7 +40,7 @@ if (prod) {
 // `req.article_names` is used by every request
 // app.get('*', require('./lib/article-names'));
 
-app.get('/', require('./lib/work-names'));
+app.get('*', require('./lib/work-names'));
 // by now `req.root_tree` is a "git_tree" instance to the resolved SHA
 app.get('/', require('./lib/homepage'));
 // app.get('/articles', require('./lib/articles'));
