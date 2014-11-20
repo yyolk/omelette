@@ -26,6 +26,21 @@ head
   link(rel="stylesheet", href="/css/style.css")
   link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css")
   link(rel="stylesheet", href="/build.css")
+  style.
+    body {
+      width:100%!important;
+      height:100%!important;
+      margin:0!important;
+      padding:0!important;
+      overflow:hidden!important;
+    }
+    iframe {
+      width:100%!important;
+      height:100%!important;
+      margin:0!important;
+      padding:0!important;
+      border:none;
+    }
   //- More ideas for your <head> here: h5bp.com/d/head-Tips
   //-
   //- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
@@ -35,100 +50,105 @@ head
   //if lt IE 9 
     script(src="//html5shiv.googlecode.com/svn/trunk/html5.js")
 body
-  header
-    div(class='yolk')
-      a(href="/") Y O L K
-    include nav
-  div(role="main")
-    !{body}
-    canvas(id="outline", width="100", height="200", style="position:fixed;top:20px;right:10px;")
-  footer
-    div(class='zocial-html5')
-  script(src="/build.js")
-  script
-    var $ = require('jquery'); jQuery = $;
-  script
-    var icon = require('favicon');
-    var canvas = document.createElement('canvas');
-    canvas.width = canvas.height = 16;
-    var ctx = canvas.getContext('2d');
-    ctx.font = 'italic 18px "League Gothic", Arial, sans-serif';
-    function rRGB(){
-      return Math.floor(Math.random()*255);
-    }
-    function rs(){
-      return Math.round(Math.random());
-    }
-    ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
+  iframe(src="http://yyolk.github.io/banner.html")
+  //- header
+  //-   div(class='yolk')
+  //-     a(href="/") Y O L K
+  //-   include nav
+  //- div(role="main")
+  //-   !{body}
+  //-   canvas(id="outline", width="100", height="200", style="position:fixed;top:20px;right:10px;")
+  //- footer
+  //-   div(class='zocial-html5')
+  //- script(src="/build.js")
+  //- script
+  //-   var $ = require('jquery'); jQuery = $;
+  //- script
+  //-   var icon = require('favicon');
+  //-   var canvas = document.createElement('canvas');
+  //-   canvas.width = canvas.height = 16;
+  //-   var ctx = canvas.getContext('2d');
+  //-   ctx.font = 'italic 18px "League Gothic", Arial, sans-serif';
+  //-   function rRGB(){
+  //-     return Math.floor(Math.random()*255);
+  //-   }
+  //-   function rs(){
+  //-     return Math.round(Math.random());
+  //-   }
+  //-   ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
 
-    var nums = ["Y","O","L","K"];
-    var i = 0;
+  //-   var nums = ["Y","O","L","K"];
+  //-   var i = 0;
 
-    setInterval(function(){
-      ctx.clearRect(0, 0, 16, 16);
-      ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
+  //-   setInterval(function(){
+  //-     ctx.clearRect(0, 0, 16, 16);
+  //-     ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
 
-      var n = nums[i++ % nums.length];
-      ctx.fillText(n, 0, 15);
-      icon(canvas.toDataURL());
-    }, 300);
-  script
-    var fracs = require('jquery-fracs');
-    $("#outline").fracs("outline", {
-      crop: true,
-      styles: [{
-          selector: 'header, footer',
-          fillStyle: 'rgb(230,230,230)'
-        }, {
-          selector: 'header a',
-          fillStyle: 'rgb(255,120,120)'
-        }, {
-          selector: 'div[role="main"] p a, h2 a',
-          fillStyle: 'rgb(0,0,255)'
-        }, {
-          selector: '.work a',
-          fillStyle: 'blue'
-        }, {
-          selector: '.yolk a',
-          fillStyle: 'black'
-        }, {
-          selector: 'iframe',
-          fillStyle: 'rgba(255, 236, 13, 0.5)'
-        }, {
-          selector: 'img',
-          fillStyle: 'rgba(240, 230, 240, 0.4)'
-        }
-      ]
-    });
-  script
-    var Tip = require('tip');
-    var keywords = ["video", "website", "collaboration", "code", "experiment", "freelance", "in real life", "response", "sound", "hardware"];
-    $("#keywordFilter a").each(function(i, el){
-        var tip = new Tip(keywords[i]);
-        tip.position('north');
-        $(el).hover(function(){
-          tip.show(el);
-        }, function(){
-          tip.hide();
-        });
-    });
-  script
-    var keyword = "";
-    var filter = require('filter');
-    var selector = document.querySelector('ul');
-    $("#keywordFilter a").each(function(){
-        $(this).click(function(){
-          input = $(this).attr("title");
-          subFilter(input);
-          });
-      });
-    function subFilter(str){
-      filter(selector, function(h4){
-        if (h4.classList.contains(str)){
-          return ~h4;
-        }
-      });
-    }
+  //-     var n = nums[i++ % nums.length];
+  //-     ctx.fillText(n, 0, 15);
+  //-     icon(canvas.toDataURL());
+  //-   }, 300);
+
+  //- temporary placeholder
+  //- script
+  //-   var fracs = require('jquery-fracs');
+  //-   $("#outline").fracs("outline", {
+  //-     crop: true,
+  //-     styles: [{
+  //-         selector: 'header, footer',
+  //-         fillStyle: 'rgb(230,230,230)'
+  //-       }, {
+  //-         selector: 'header a',
+  //-         fillStyle: 'rgb(255,120,120)'
+  //-       }, {
+  //-         selector: 'div[role="main"] p a, h2 a',
+  //-         fillStyle: 'rgb(0,0,255)'
+  //-       }, {
+  //-         selector: '.work a',
+  //-         fillStyle: 'blue'
+  //-       }, {
+  //-         selector: '.yolk a',
+  //-         fillStyle: 'black'
+  //-       }, {
+  //-         selector: 'iframe',
+  //-         fillStyle: 'rgba(255, 236, 13, 0.5)'
+  //-       }, {
+  //-         selector: 'img',
+  //-         fillStyle: 'rgba(240, 230, 240, 0.4)'
+  //-       }
+  //-     ]
+  //-   });
+  //- script
+  //-   var Tip = require('tip');
+  //-   var keywords = ["video", "website", "collaboration", "code", "experiment", "freelance", "in real life", "response", "sound", "hardware"];
+  //-   $("#keywordFilter a").each(function(i, el){
+  //-       var tip = new Tip(keywords[i]);
+  //-       tip.position('north');
+  //-       $(el).hover(function(){
+  //-         tip.show(el);
+  //-       }, function(){
+  //-         tip.hide();
+  //-       });
+  //-   });
+  //- script
+  //-   var keyword = "";
+  //-   var filter = require('filter');
+  //-   var selector = document.querySelector('ul');
+  //-   $("#keywordFilter a").each(function(){
+  //-       $(this).click(function(){
+  //-         input = $(this).attr("title");
+  //-         subFilter(input);
+  //-         });
+  //-     });
+  //-   function subFilter(str){
+  //-     filter(selector, function(h4){
+  //-       if (h4.classList.contains(str)){
+  //-         return ~h4;
+  //-       }
+  //-     });
+  //-   }
+
+
   //script(src="js/plugins.js")
   //script(src="js/script.js")
   //- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
