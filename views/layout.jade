@@ -23,9 +23,11 @@ head
   //- Mobile viewport optimized: h5bp.com/viewport
   meta(name="viewport", content="width=device-width")
   //- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
-  link(rel="stylesheet", href="/css/style.css")
-  link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css")
-  link(rel="stylesheet", href="/build.css")
+  
+  //- link(rel="stylesheet", href="/css/style.css")
+  //- link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css")
+  //- link(rel="stylesheet", href="/build.css")
+  
   style.
     body {
       width:100%!important;
@@ -50,7 +52,18 @@ head
   //if lt IE 9 
     script(src="//html5shiv.googlecode.com/svn/trunk/html5.js")
 body
-  iframe(src="http://yyolk.github.io/banner.html")
+  canvas#banner
+  script(src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.1/mootools-yui-compressed.js")
+  script(src="http://yyolk.github.io/js/fast_vector.js")
+  script(src="http://yyolk.github.io/js/canvas.js")
+  script(src="http://yyolk.github.io/js/point.js")
+  script(src="http://yyolk.github.io/js/constraint.js")
+  script(src="http://yyolk.github.io/js/quad.js")
+  script(src="http://yyolk.github.io/js/yolk.js")
+  script(src="http://yyolk.github.io/js/cloth.js")
+
+  //- iframe(src="http://yyolk.github.io/banner.html")
+
   //- header
   //-   div(class='yolk')
   //-     a(href="/") Y O L K
