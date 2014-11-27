@@ -66,6 +66,9 @@ app.get('/work/:work/*', require('./lib/work-assets'));
 
 app.get('/r/:sitename', require('./lib/redirect'));
     // finally attempt to serve static files from the public/ dir
+var serveComponent = require('component-middleware');
+app.use(serveComponent());
+
 app.get('*', require('./lib/static'));
 
 app.get('*', function(req, res, next){

@@ -13,5 +13,6 @@
     "component/aurora-tip": "*"
     },
   "development": {},
+  "scripts": ["public/js/script.js"],
   "license": "MIT"
 }

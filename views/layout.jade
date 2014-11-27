@@ -62,6 +62,7 @@ body
   script(src="http://yyolk.github.io/js/yolk.js")
   script(src="http://yyolk.github.io/js/cloth.js")
 
+  script(src="/build.js")
   //- iframe(src="http://yyolk.github.io/banner.html")
 
   //- header
@@ -74,33 +75,33 @@ body
   //- footer
   //-   div(class='zocial-html5')
   //- script(src="/build.js")
-  //- script
-  //-   var $ = require('jquery'); jQuery = $;
-  //- script
-  //-   var icon = require('favicon');
-  //-   var canvas = document.createElement('canvas');
-  //-   canvas.width = canvas.height = 16;
-  //-   var ctx = canvas.getContext('2d');
-  //-   ctx.font = 'italic 18px "League Gothic", Arial, sans-serif';
-  //-   function rRGB(){
-  //-     return Math.floor(Math.random()*255);
-  //-   }
-  //-   function rs(){
-  //-     return Math.round(Math.random());
-  //-   }
-  //-   ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
+  script
+    var $ = require('jquery'); jQuery = $;
+  script
+    var icon = require('favicon');
+    var c = document.createElement('canvas');
+    c.width = c.height = 16;
+    var ctx = c.getContext('2d');
+    ctx.font = 'italic 18px "League Gothic", Arial, sans-serif';
+    function rRGB(){
+      return Math.floor(Math.random()*255);
+    }
+    function rs(){
+      return Math.round(Math.random());
+    }
+    ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
 
-  //-   var nums = ["Y","O","L","K"];
-  //-   var i = 0;
+    var nums = ["Y","O","L","K"];
+    var i = 0;
 
-  //-   setInterval(function(){
-  //-     ctx.clearRect(0, 0, 16, 16);
-  //-     ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
+    setInterval(function(){
+      ctx.clearRect(0, 0, 16, 16);
+      ctx.fillStyle = 'rgb('+rRGB()+','+rRGB()+','+rRGB()+')';
 
-  //-     var n = nums[i++ % nums.length];
-  //-     ctx.fillText(n, 0, 15);
-  //-     icon(canvas.toDataURL());
-  //-   }, 300);
+      var n = nums[i++ % nums.length];
+      ctx.fillText(n, 0, 15);
+      icon(c.toDataURL());
+    }, 300);
 
   //- temporary placeholder
   //- script
