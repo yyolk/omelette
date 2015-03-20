@@ -1,11 +1,10 @@
-#doyouliek.glitch
-  a(href="/r/G_L_I_T_C_H") U LIEK GLITCH?
+unless recently_updated
+  .recently-updated
+    h3 recent-updates
+    each work in recently_updated
+      h4
+        a(class='worklink', href='work/'+work+'/')=work
 
-.recently-updated
-  h3 recent-updates
-  each work in recently_updated
-    h4
-      a(class='worklink', href='work/'+work+'/')=work
 .works
   h3 works
   #keywordFilter
