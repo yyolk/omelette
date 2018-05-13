@@ -4,6 +4,6 @@ Keywords: website
 
 GIF-specific tumblr.
 
-## <a href="http://patternsaremyfeelings.yolk.cc" class="fontawesome-external-link">Patterns Are My Feelings</a>
+## <a href="//patternsaremyfeelings.yolk.cc" class="fontawesome-external-link">Patterns Are My Feelings</a>
 
-<iframe src="http://patternsaremyfeelings.yolk.cc" height="1000"></iframe>
+<iframe src="//patternsaremyfeelings.yolk.cc" height="1000"></iframe>

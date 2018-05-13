@@ -1,7 +1,7 @@
 Title: 0P3NR3P0
 Date: Wed, 05 Dec 2012 02:43:19 GMT
 Keywords: collab, website, irl, code
-Link: http://0p3nr3p0.net
+Link: //0p3nr3p0.net
 Github: https://github.com/yyolk/0P3NR3P0
 
 An alpha republic repository of [glitch] art worx.
@@ -16,7 +16,7 @@ The GLI.TC/H 0P3NR3P0 is an open/public repository of glitch art worx. It's a mo
 - at present the 0P3NR3P0's archives are undergoing some maintenence, but in the future it will be perpetually open for submissions && perpetually available for curators intersted in exhibiting glitch worx from the archive. 
 
 ## Featured
-* <span class="fontawesome-map-marker"></span> _Open call begins 8th May_ [0p3nr3p0](/work/0p3nr3p0) will be used for ***Glitch Moment/ums*** [*More information*](http://www.furtherfield.org/programmes/exhibition/glitch-momentums)
-* <span class="fontawesome-map-marker"></span> **Tue, Mar 19, 2013** [0p3nr3p0](/work/0p3nr3p0) will be on display at the MCA Chicago in conjunction with [Nick Briz](http://nickbriz.com)'s curation of glitch workx from the interwebs. [*More information*](http://www2.mcachicago.org/event/glitch-art-ftp-share-fest/)
+* <span class="fontawesome-map-marker"></span> _Open call begins 8th May_ [0p3nr3p0](/work/0p3nr3p0) will be used for ***Glitch Moment/ums*** [*More information*](//www.furtherfield.org/programmes/exhibition/glitch-momentums)
+* <span class="fontawesome-map-marker"></span> **Tue, Mar 19, 2013** [0p3nr3p0](/work/0p3nr3p0) will be on display at the MCA Chicago in conjunction with [Nick Briz](//nickbriz.com)'s curation of glitch workx from the interwebs. [*More information*](//www2.mcachicago.org/event/glitch-art-ftp-share-fest/)
 
-<iframe src="http://www.0p3nr3p0.net" height="1000"></iframe>
+<iframe src="//www.0p3nr3p0.net" height="1000"></iframe>

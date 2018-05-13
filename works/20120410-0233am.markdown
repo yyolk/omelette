@@ -4,6 +4,6 @@ Keywords: video
 
 20120410-0233AM
 
-<iframe width="1280" height="720" src="http://www.youtube.com/embed/FVFn_A3Q64w" frameborder="0" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="//www.youtube.com/embed/FVFn_A3Q64w" frameborder="0" allowfullscreen></iframe>
 
-for [Absis Minas](http://absis-minas.com)
+for [Absis Minas](//absis-minas.com)

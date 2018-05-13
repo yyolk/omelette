@@ -5,4 +5,4 @@ Github: https://github.com/yyolk/revelationgroup
 
 For _Revelation Group_
 
-<iframe src="http://yyolk.github.io/revelationgroup/" height="1000"></iframe>
+<iframe src="//yyolk.github.io/revelationgroup/" height="1000"></iframe>
