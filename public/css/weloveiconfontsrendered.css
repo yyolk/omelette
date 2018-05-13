@@ -2,8 +2,8 @@
   font-family: 'FontAwesome';
   font-style: normal;
   font-weight: normal;
-  src: url("http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot");
-  src: url("http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot?#iefix") format("eot"), url("http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.woff") format("woff"), url("http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.ttf") format("truetype"), url("http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
+  src: url("/fonts/fontawesome-webfont.eot");
+  src: url("/fonts/fontawesome-webfont.eot?#iefix") format("eot"), url("/fonts/fontawesome-webfont.woff") format("woff"), url("/fonts/fontawesome-webfont.ttf") format("truetype"), url("/fonts/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
 }
 /* line 12, ../../sass/weloveiconfontsrendered.scss */
 .fontawesome-glass:before {
@@ -1254,8 +1254,8 @@
   font-family: 'zocial';
   font-style: normal;
   font-weight: normal;
-  src: url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot");
-  src: url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot?#iefix") format("eot"), url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.woff") format("woff"), url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.ttf") format("truetype"), url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.svg#zocialregular") format("svg");
+  src: url("/fonts/zocial-regular-webfont.eot");
+  src: url("/fonts/zocial-regular-webfont.eot?#iefix") format("eot"), url("/fonts/zocial-regular-webfont.woff") format("woff"), url("/fonts/zocial-regular-webfont.ttf") format("truetype"), url("/fonts/zocial-regular-webfont.svg#zocialregular") format("svg");
 }
 /* line 23, ../../sass/weloveiconfontsrendered.scss */
 .zocial-acrobat:before {
@@ -1731,8 +1731,8 @@
   font-family: 'zocial';
   font-style: normal;
   font-weight: normal;
-  src: url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot");
-  src: url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot?#iefix") format("eot"), url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.woff") format("woff"), url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.ttf") format("truetype"), url("http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.svg#zocialregular") format("svg");
+  src: url("/fonts/zocial-regular-webfont.eot");
+  src: url("/fonts/zocial-regular-webfont.eot?#iefix") format("eot"), url("/fonts/zocial-regular-webfont.woff") format("woff"), url("/fonts/zocial-regular-webfont.ttf") format("truetype"), url("/fonts/zocial-regular-webfont.svg#zocialregular") format("svg");
 }
 /* line 34, ../../sass/weloveiconfontsrendered.scss */
 .zocial-acrobat:before {
