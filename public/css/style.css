@@ -2781,6 +2781,173 @@ h6, .h6-like {
   content: "U";
 }
 
+@font-face {
+  font-family: 'brandico';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts//brandico.eot");
+  src: url("/fonts//brandico.eot?#iefix") format("eot"), url("/fonts//brandico.woff") format("woff"), url("/fonts//brandico.ttf") format("truetype"), url("/fonts//brandico.svg#brandico") format("svg");
+}
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-facebook:before {
+  content: "\f300";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-facebook-rect:before {
+  content: "\f301";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-twitter:before {
+  content: "\f302";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-twitter-bird:before {
+  content: "\f303";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-vimeo:before {
+  content: "\f30f";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-vimeo-rect:before {
+  content: "\f30e";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-tumblr:before {
+  content: "\f311";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-tumblr-rect:before {
+  content: "\f310";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-googleplus-rect:before {
+  content: "\f309";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-github-text:before {
+  content: "\f307";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-github:before {
+  content: "\f308";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-skype:before {
+  content: "\f30b";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-icq:before {
+  content: "\f304";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-yandex:before {
+  content: "\f305";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-yandex-rect:before {
+  content: "\f306";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-vkontakte-rect:before {
+  content: "\f30a";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-odnoklassniki:before {
+  content: "\f30c";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-odnoklassniki-rect:before {
+  content: "\f30d";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-friendfeed:before {
+  content: "\f312";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-friendfeed-rect:before {
+  content: "\f313";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-blogger:before {
+  content: "\f314";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-blogger-rect:before {
+  content: "\f315";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-deviantart:before {
+  content: "\f316";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-jabber:before {
+  content: "\f317";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-lastfm:before {
+  content: "\f318";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-lastfm-rect:before {
+  content: "\f319";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-linkedin:before {
+  content: "\f31a";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-linkedin-rect:before {
+  content: "\f31b";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-picasa:before {
+  content: "\f31c";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-wordpress:before {
+  content: "\f31d";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-instagram:before {
+  content: "\f31e";
+}
+
+/* line 45, ../../sass/weloveiconfontsrendered.scss */
+.brandico-instagram-filled:before {
+  content: "\f31f";
+}
+
 /* fontawesome */
 /* line 81, ../../sass/style.scss */
 [class*="fontawesome-"]:before {
