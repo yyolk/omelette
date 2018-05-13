@@ -31,7 +31,7 @@
     "markdown-walker": "~0.1.0",
     "marked": "0",
     "mime": "1.2.9",
-    "strftime": "0"
+    "strftime": "^0.10.0"
   },
   "devDependencies": {}
 }
