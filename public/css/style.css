@@ -12533,3 +12533,13 @@ blockquote {
   border-left: 4px solid black;
   padding-left: 10px;
 }
+
+/* line 330, ../../sass/style.scss */
+a#signout span.signout {
+  display: none;
+}
+/* line 335, ../../sass/style.scss */
+a#signout:hover span.signout {
+  display: inherit;
+  margin-right: 4px;
+}

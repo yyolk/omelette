@@ -324,3 +324,17 @@ blockquote {
   border-left: 4px solid black; 
   padding-left: 10px;
 }
+
+// signout
+a#signout {
+    span.signout {
+        display: none;
+    }
+
+    &:hover {
+        span.signout {
+            display: inherit;
+            margin-right: 4px;
+        }
+    }
+}
