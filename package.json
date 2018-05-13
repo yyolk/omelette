@@ -24,7 +24,7 @@
   "dependencies": {
     "component-middleware": "^1.0.0",
     "debug": "^3.1.0",
-    "express": "^4.16.3",
+    "express": "^3",
     "express-params": "0.0.3",
     "highlight.js": "7.3.0",
     "https-proxy-agent": "^2.2.1",
@@ -32,7 +32,7 @@
     "markdown-walker": "~0.1.0",
     "marked": "~> 0.3.9",
     "mime": "^2.3.1",
-    "strftime": "0"
+    "strftime": "^0.10.0"
   },
   "devDependencies": {}
 }
