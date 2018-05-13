@@ -75,7 +75,7 @@
 @import "h5bp/h5bp-css-print-after.inc";
 // ==|== End print-media ====================================================
 @import "compass/css3";
-@import url(//weloveiconfonts.com/api/?family=fontawesome|zocial|brandico);
+@import "weloveiconfontsrendered";
 
 /* fontawesome */
 [class*="fontawesome-"]:before {
